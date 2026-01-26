@@ -1,4 +1,5 @@
 od.reader.jsonp_name_index(20160808, {
+    "ammunition": "glossary425",
     "object immunities, resistances, vulnerabilities": "glossary635",
     "object immunities, resistances, vulnerabilitie": "glossary635",
     "object immunities, resistances, vulnerabiliti": "glossary635",

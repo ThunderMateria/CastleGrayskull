@@ -2,6 +2,7 @@ od.reader.jsonp_data_listing(20130703, "glossary", ["ID", "Name", "Category", "T
     ["glossary15", "Aberrant", "Monsters", "Origin", "MM2, MM, PHB3, RC, MV:TttNV"],
     ["glossary29", "Air", "Monsters", "Keyword", "MM2, RC, MV:TttNV"],
     ["glossary55", "All-around vision", "Monsters", "Sense", "MM2, MM"],
+    ["glossary425", "Ammunition", "Rules", "Rules Other", "AV2"],
     ["glossary40", "Angel", "Monsters", "Keyword", "MM2, RC, MV:TttNV"],
     ["glossary23", "Animate", "Monsters", "Type", "MM2, RC, MV:TttNV"],
     ["glossary57", "Aquatic", "Monsters", "Keyword", "MM2, RC, MV:TttNV"],
