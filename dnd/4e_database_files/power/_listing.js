@@ -831,6 +831,14 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
     ],
     [
       "power10272",
+      "power16699",
+      "Arcane Defiling",
+      "Arcane Feature",
+      "0",
+      "At-Will Feature",
+      "Free",
+      "Arcane, Necrotic",
+      "Dark Sun Campaign Setting"
       "Ardent Alacrity",
       "Ardent",
       "",

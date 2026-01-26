@@ -975,6 +975,7 @@ od.reader.jsonp_name_index(20160808, {
     "angel of the eleven winds": "power964",
     "arachnid clockwork horror": "monster5122",
     "arc of the flashing storm": "power13163",
+    "arcane defiling": "power16699",
     "ardent tsucora initiation": "feat2786",
     "arms of unbreakable honor": "item412",
     "aspect of squamous horror": "power13081",
