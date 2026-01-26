@@ -39184,7 +39184,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "Sabotage Trap",
       "Hermetic Saboteur",
       "12",
-      "Enc. Attack",
+      "Enc. Utility",
       "Imm. Interrupt",
       "Arcane, Teleportation",
       "AP"
@@ -48514,7 +48514,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "Ardent Vow",
       "Paladin",
       "",
-      "Daily Feature",
+      "At-Will Feature",
       "Minor",
       "Divine",
       "DP"
@@ -48524,7 +48524,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "Virtue's Touch",
       "Paladin",
       "",
-      "Daily Feature",
+      "At-Will Feature",
       "Minor",
       "Divine",
       "DP"

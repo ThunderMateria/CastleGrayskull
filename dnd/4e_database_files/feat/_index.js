@@ -1692,7 +1692,7 @@ od.reader.jsonp_data_index(20130616, "feat", {
     feat2807:
         "Gambler's Initiative Heroic Tier Prerequisite : Sorcerer, Wild Magic class feature Benefit : Before rolling an initiative check, choose even numbers or odd numbers. If the result of the d20 roll for that initiative check matches the type of number selected, you gain a feat bonus to that initiative check equal to your Charisma modifier. Dragon Magazine 385, page(s) 47.",
     feat1290:
-        "Garrote Expert [Multiclass] Prerequisite : 8th level, Garrote Training Benefit : You can swap one 6th-level or higher utility power you know for the body shield (garrote expert) utility power. Body Shield (Garrote Expert) Feat Utility Encounter ✦ Weapon Immediate Interrupt Personal Requirement : You must be wielding a garrote. Target : You are grabbing a creature, and you are the target of a melee or ranged attack made by an enemy other than the creature you are grabbing. Effect : The creature you are grabbing becomes the attack's target. Dragon Magazine 373, page(s) 15.",
+        "Garrote Expert [Multiclass] Prerequisite : 8th level, Garrote Training Benefit : You can swap one 6th-level or higher utility power you know for the body shield (garrote expert) utility power. Body Shield (Garrote Expert) Feat Utility Encounter ✦ Weapon Immediate Interrupt Personal Requirement : You must be wielding a garrote. Trigger : You are grabbing a creature, and you are the target of a melee or ranged attack made by an enemy other than the creature you are grabbing. Effect : The creature you are grabbing becomes the attack's target. Dragon Magazine 373, page(s) 15.",
     feat1289:
         "Garrote Novice [Multiclass] Prerequisite : 4th level, Garrote Training Benefit : You can swap one 3rd-level or higher encounter attack power you know for the choking grab attack power. Choking Grab Feat Attack Encounter ✦ Weapon Standard Action Melee weapon Requirement : You must be wielding a garrote. Target : One creature you have combat advantage against Attack : Strength vs. Reflex or Dexterity vs. Reflex Hit : 2[W] + Strength modifier damage, and the target is dazed until the end of your next turn and grabbed. 11th Level: Increase the damage to 3[W]. 21st Level: Increase the damage to 4[W]. Special : When you choose this power, choose whether you use Strength or Dexterity to make the attack. Dragon Magazine 373, page(s) 15.",
     feat1291:
@@ -5426,7 +5426,7 @@ od.reader.jsonp_data_index(20130616, "feat", {
     feat2090:
         "Prisoner's Resolve Paragon Tier Prerequisite : 11th level, warlock, infernal pact Benefit : If you fail a saving throw, you can take 10 damage to make another saving throw against the same effect. You can do this only once per effect per round. This damage cannot be reduced in any way. Dragon Magazine 381, page(s) 53.",
     feat2047:
-        "Prophetic Preparation [Vistani Bloodline] Heroic Tier Prerequisite : 11th level, wizard, Vistani Heritage Benefit : Once per day, as a free action, you can swap one daily attack spell you didn't prepare in place of one you did prepare. Also once per day, as a free action, you can swap one utility spell you didn't prepare in place of one you did prepare. You choose the replacement spell at the time you use it. Dragon Magazine 380, page(s) 87.",
+        "Prophetic Preparation [Vistani Bloodline] Paragon Tier Prerequisite : 11th level, wizard, Vistani Heritage Benefit : Once per day, as a free action, you can swap one daily attack spell you didn't prepare in place of one you did prepare. Also once per day, as a free action, you can swap one utility spell you didn't prepare in place of one you did prepare. You choose the replacement spell at the time you use it. Dragon Magazine 380, page(s) 87.",
     feat1044:
         "Protected Isolation Paragon Tier Prerequisite : 11th level, avenger, Censure of Retribution class feature, oath of enmity power Benefit : While you are adjacent to your oath of enmity target, you gain a +1 bonus to AC. Player's Handbook 2, page(s) 191.",
     feat862:
@@ -5599,7 +5599,7 @@ od.reader.jsonp_data_index(20130616, "feat", {
     feat2517:
         "Sneaky Opportunity Paragon Tier Prerequisite : 11th level, rogue Benefit : Your opportunity attacks with light blades deal 1d6 extra damage. This extra damage increases to 2d6 at 21st level. Martial Power 2, page(s) 143.",
     feat1722:
-        "Sniper's Aim Heroic Tier Prerequisite : 11th level, ranger, trained in Perception Benefit : Whenever you miss with a daily ranger attack against your quarry, you can choose to apply your Hunter's Quarry damage. You can still deal Hunter's Quarry damage only once per round. Dragon Magazine 377, page(s) 45.",
+        "Sniper's Aim Paragon Tier Prerequisite : 11th level, ranger, trained in Perception Benefit : Whenever you miss with a daily ranger attack against your quarry, you can choose to apply your Hunter's Quarry damage. You can still deal Hunter's Quarry damage only once per round. Dragon Magazine 377, page(s) 45.",
     feat322:
         "Solid Sound Paragon Tier Prerequisite : 11th level, Con 13 Benefit : Until the end of your next turn, you gain a +2 bonus to Fortitude, Reflex, or Will after you use any power that has the thunder or the force keyword. Choose the defense when you use the power. Player's Handbook, page(s) 206.",
     feat1186:
