@@ -6050,7 +6050,7 @@ od.reader.jsonp_data_index(20130616, "feat", {
     feat1053:
         "Ferocious Critical Epic Tier Prerequisite : 21st level, half-orc Benefit : Whenever you score a critical hit with a melee weapon attack, you gain a +4 bonus to attack rolls and damage rolls until the end of your next turn. Player's Handbook 2, page(s) 194.",
     feat3655:
-        "Fey Shift Prerequisite : 21st level, fey origin or Fey Bond feat Benefit : You can teleport up to 2 squares as a move action. Heroes of the Feywild, page(s) 128.",
+        "Fey Shift Epic Tier Prerequisite : 21st level, fey origin or Fey Bond feat Benefit : You can teleport up to 2 squares as a move action. Heroes of the Feywild, page(s) 128.",
     feat882:
         "Feywild Warrior Epic Tier Prerequisite : 21st level, Dex 17, eladrin, any martial class Benefit : When you hit a target with a martial daily attack power, you can teleport yourself and the target 5 squares after you resolve the attack. Martial Power, page(s) 147.",
     feat1729:
@@ -6121,7 +6121,7 @@ od.reader.jsonp_data_index(20130616, "feat", {
     feat348:
         "Improved Prime Shot Epic Tier Prerequisite : 21st level, Wis 17, ranger, Prime Shot class feature Benefit : The bonus to ranged attack rolls granted by your Prime Shot is +2 instead of +1. Martial Power, page(s) 147.",
     feat3544:
-        "Improved Steed (Silver Dragon) Prerequisite : 21st level, call celestial steed power Benefit : When you use your call celestial steed power, you can choose to summon a celestial dragon mount instead of a celestial warhorse. Dragon Magazine 393.",
+        "Improved Steed (Silver Dragon) Epic Tier Prerequisite : 21st level, call celestial steed power Benefit : When you use your call celestial steed power, you can choose to summon a celestial dragon mount instead of a celestial warhorse. Dragon Magazine 393.",
     feat1607:
         "Indiscriminate Wrath Epic Tier Prerequisite : 21st level, invoker, Covenant of Wrath class feature Benefit : When you use your armor of wrath power, you can target each enemy in the burst, rather than only the triggering enemy. Divine Power, page(s) 141.",
     feat544:
