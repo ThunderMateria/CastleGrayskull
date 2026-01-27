@@ -356,7 +356,7 @@
   "Powers with secondary powers labeled as encounter/daily that should be at-will": [
     {
       "text": "Flameburst Armor (Artificer Daily 1) (DR381:56): Also needs \"Fireburst\" armor changed to \"flameburst\"",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Planestorm Anchor (Artificer Daily 19) (DR381:60)",
@@ -372,391 +372,391 @@
     },
     {
       "text": "Thunder Hawk Rage (Barbarian Daily 5) (PHB2:53)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Beckoning Strike (Battlemind Daily 5) (PHB3:48)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Cascade of Rippling Force (Battlemind Daily 9) (DSCS:84)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Inexorable Death Strike (Battlemind Daily 9) (PHB3:49)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Shattered Time (Battlemind Daily 9) (PsP:44)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Paralyzing Fear Strike (Battlemind Daily 15) (PHB3:52)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Relentless Strike (Battlemind Daily 19) (PHB3:54)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Corona of the Sunsphere (Battlemind Daily 25) (DSCS:85)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Mind-Sundering Burst (Battlemind Daily 29) (PHB3:57)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Primal Storm (Druid Daily 25) (PHB2:94)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Blinding Blizzard (Druid Daily 29) (PHB2:95)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Dust Storm Assault (Fighter Daily 15) (DSCS:88)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Devastation's Wake (Fighter Daily 19) (PHB:84)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Blade of Vengeance (Invoker Daily 5) (PHB2:106)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Wall of Blades (Invoker Daily 15) (PHB2:109)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Calm Before the Storm (Monk Daily 5) (HotEC:73)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Stone Juggernaut (Monk Daily 9) (HotEC:76)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "One Hundred Steps (Monk Utility 16) (HotEC:78)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Four Hidden Sounds (Monk Daily 25) (PsP:72)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Titan's Mighty Grasp (Monk Daily 29) (PsP:73)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Tormenting Mirage (Monk Daily 29) (HotEC:84)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Living Missile (Psion Daily 1) (PsP:86)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Force Spheres (Psion Daily 5) (PsP:88)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Echoing Boom (Psion Daily 9) (PsP:90)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Malicious Lightning (Psion Daily 9) (PsP:90)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Living Barrage (Psion Daily 15) (PsP:93)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Cerebral Phantasm (Psion Daily 19) (PsP:95)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Far Realm's Embrace (Psion Daily 25) (PsP:97)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Seismic Strike (Ranger Daily 1) (DR387:45)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Shepherding Slice (Ranger Daily 9) (DR387:46)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Surprising Arrow (Ranger Daily 19) (DR383:51)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Fearsome Roar (Ranger Daily 25) (DR387:46)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Duelist's Prowess (Rogue Daily 1) (DR381:68)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Rune of Death's Verge (Runepriest Daily 9) (PHB3:105)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Rune of Judgment's Levy (Runepriest Daily 15) (PHB3:107)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Rune of Warding Light (Runepriest Daily 19) (PHB3:109)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Persistent Arrow (Seeker Daily 1) (DR389:42)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Fey Sinkhole (Seeker Daily 15) (PHB3:124)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Arrows of Misfortune (Seeker Daily 15) (Dr389:43)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Rending Vines (Seeker Daily 19) (PHB3:126)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Slavering Sentinels (Seeker Daily 25) (PHB3:128)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Fading Grotto (Seeker Daily 25) (DR413:33)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Biting Wind Arrows (Seeker Daily 29) (Dr389:44)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Shrieking Wind Spirits (Shaman Daily 5) (DSCS:91)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Spirit of the Shielding Fire (Shaman Daily 5) (PHB2:124)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Enraged Spirit (Shaman Daily 9) (DR387:83)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Spirit of Destruction (Shaman Daily 25) (DR387:84)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Words of Chaos (Sorcerer Daily 25) (PHB2:146)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Arcane Deflection (Swordmage Daily 9) (AP:56)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Assault of Fiery Cuts (Swordmage Daily 15) (AP:58)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Malicious Shadow (Warlock Daily 1) (HoS:90)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Emerald Shield ( W arlock Daily 5)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Well of Shadows (Warlock Daily 5) (HoS:69)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Tentacles of Cryonax (Warlock Daily 5) (HotEC:102)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Duelist’s Dance (Warlock Utility 10) (HotFK:214)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Menacing Shadow (Warlock Daily 15) (HoS:72)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Armor of Summer's Glory (Warlock Daily 15) (HotFK:217)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Baleful Eye of Imix (Warlock Daily 19) (HotEC:104)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Memory of Blades (Warlock Daily 19) (HotFK:220)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Grease (Wizard Daily 1) (AP:102)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Visions of Avarice (Wizard Daily 5) (AP:105)(HotFL:213)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Phantasmal Killer (Wizard Daily 9) (HotFL:217)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Earthen Grasp (Wizard Daily 9) (HotEC:114)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Melf's Minute Meteors (Wizard Daily 9) (HotEC:114)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Evard's Dreadful Mist (Wizard Daily 15) (AP:108)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Serpents of Flame (Wizard Daily 15) (DR388:35)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Shard of the Endless Avalanche (Wizard Encounter 17) (AP:110)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Bubbling Acid (Wizard Daily 25) (AP:113)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Cinder Storm (Wizard Daily 25) (AP:113)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Dooming Darkness (Wizard Daily 25) (HoS:108)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Prismatic Wall (Wizard Daily 29) (AP:115)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Sign of the Golden Ram (Occultist Attack) (D420)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Bear Shape (Werebear Utility) (DR410:9)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Dire Rat Shape (Wererat Utility) (DR410:11)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Wolf Shape (Werewolf Utility) (DR410:13)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Slave to Fury (Grim Blackguard Encounter 11) (HoS:41)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Poetic Flourish (Arms-Troubado u r Daily 20) (DSCS:40)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Corellon's Azure Blessing (Azure Guard Daily 20) (DR394:41)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Sleeper Awakens (Contemplative Ardent Utility 12) (DR395:39)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Demonic Stigmata (Demon-Bound Daily 20) (HotEC:123)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Cataclysm (Desert's Voice Daily 20) (DR396:8)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Veil of the Dragon (Dragonsoul Heir Daily 20) (PHB3:150)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Evard's Black Gate (Enigmatic Mage Daily 20) (HoS:113)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Spontaneous Combustion (Firestarter Daily 20) (PsP:102)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Saboteur's Ward (Hermetic Saboteur Daily 20) (AP:118)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Feywild Transformation (Legendary Hexblade Daily 20) (HotFK:229)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Infernal Transformation (Legendary Hexblade Daily 20) (HotFK:235)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Shadow Transformation (Legendary Hexblade Daily 20) (HoS:96)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Starry Transformation (Legendary Hexblade Daily 20) (DR393:29)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Illusory Host (Phantasm Guard Daily 20) (DR384:60)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hounding Shield of Radiance (Rune Shield Daily 20) (PHB3:115)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Unwitting Ally (Shady Dealer Daily 20) (DSCS:45)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "White Well Transformation (Valiant Hexblade Utility 20) (DR393:29)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Darkwolf Form (Vampire Noble Daily 20) (HoS:62)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "From One to Many (Vermin Lord Daily 20) (BoVD:28)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Draconic Form (Draconic Incarnation Utility 26) (DR388:14)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Draconic Rampage (Dragon King Utility 26) (DSCS:99)",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Powers that are miscolored (should be daily grey)": [
