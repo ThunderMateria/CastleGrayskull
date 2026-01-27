@@ -12,6 +12,26 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-01-27 — Batch: All remaining Waist items (7 items)
+
+- **Scope**: item
+- **Entries**: Baldric of Dividing Ranks, Belt of Fiends, Belt of Sacrifice, Belt of Sonnlinor Righteousness, Belt of Vigor, Dynamic Belt, Swimtide Harness
+- **Source**: fixes-needed.json + Portable Compendium SQL
+- **Files touched**: `4e_database_files/item/data1.js`, `data6.js`, `data11.js`, `data12.js`, `data14.js`, `4e_database_files/item/_index.js`, `fixes-needed.json`, `index.htm`
+- **Validation**: pass (`compendium-validation.json`)
+- **Smoke test**: pending
+
+---
+## 2026-01-27 — Batch: All remaining Hands items (8 items)
+
+- **Scope**: item
+- **Entries**: Cat Paws, Caustic Gauntlets, Flaying Gloves, Gauntlets of Blood, Gloves of the Healer, Gorilla Gloves, Rampaging Slayer's Gloves, Storm Gauntlets
+- **Source**: fixes-needed.json + Portable Compendium SQL
+- **Files touched**: `4e_database_files/item/data2.js`, `data3.js`, `data11.js`, `data13.js`, `data14.js`, `data19.js`, `4e_database_files/item/_index.js`, `fixes-needed.json`, `index.htm`
+- **Validation**: pass (`compendium-validation.json`)
+- **Smoke test**: pending
+
+---
 ## 2026-01-27 — Batch: All remaining Heads items (4 items)
 
 - **Scope**: item
