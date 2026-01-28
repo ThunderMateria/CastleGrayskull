@@ -12,6 +12,34 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-01-27 — Batch: Goring Weapon fix
+
+- **Scope**: weapon
+- **Entries**: 
+  - Goring Weapon: Changed power action from "Immediate Reaction" to "Free Action", added note "The published name of this item is Impaling Weapon"
+- **Source**: fixes-needed.json + user specification
+- **Files touched**: `4e_database_files/weapon/data0.js`, `4e_database_files/weapon/_index.js`, `fixes-needed.json`, `index.htm`
+- **Validation**: pass (`compendium-validation.json`)
+- **Smoke test**: pending
+
+---
+## 2026-01-27 — Batch: Easy medium fixes (7 items)
+
+- **Scope**: item, weapon, implement, power
+- **Entries**: 
+  - Tattoo of Vengeance: Added "rolls" after "damage" in higher-level versions
+  - Crimson Determination: Added "rolls" after "damage" in higher-level versions
+  - Wrathful Spirit: Added "rolls" after "damage" in higher-level versions
+  - Symbol of Fire and Fury: Added level scaling for dice increase while bloodied (2d6/2d10 at 19/24, 3d6/3d10 at 29)
+  - Shoulderbow: Added (embedded component) trait and requirement line
+  - Symbol of Revivification: Added enhancement, level, and cost table
+  - In Death, Life: Added Channel Divinity line
+- **Source**: fixes-needed.json + Portable Compendium SQL
+- **Files touched**: `4e_database_files/item/data9.js`, `data12.js`, `data17.js`, `4e_database_files/item/_index.js`, `4e_database_files/weapon/data18.js`, `4e_database_files/weapon/_index.js`, `4e_database_files/implement/data14.js`, `4e_database_files/implement/_index.js`, `4e_database_files/power/data3.js`, `4e_database_files/power/_index.js`, `fixes-needed.json`, `index.htm`
+- **Validation**: pass (`compendium-validation.json`)
+- **Smoke test**: pending
+
+---
 ## 2026-01-27 — Batch: Lightweight medium fixes (7 items)
 
 - **Scope**: weapon, item, implement
