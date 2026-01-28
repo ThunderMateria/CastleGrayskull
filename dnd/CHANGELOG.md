@@ -12,6 +12,20 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-01-27 — Batch: Remaining simple fixes (4 items)
+
+- **Scope**: power, glossary
+- **Entries**: 
+  - Psychic Anomaly: Verified Augmentable keyword is on primary power (not secondary) - already correct
+  - Darkspiral Aura: Changed "that enemy" to "the triggering enemy" in Effect line
+  - Treasure by Party Level: Changed first row from <th> tags to <td> tags (removed table header formatting)
+  - Hybrid Essentials classes: Verified all show DR400 (already correct)
+- **Source**: fixes-needed.json + Portable Compendium SQL
+- **Files touched**: `4e_database_files/power/data11.js`, `4e_database_files/power/_index.js`, `4e_database_files/glossary/data16.js`, `fixes-needed.json`, `index.htm`
+- **Validation**: pass (`compendium-validation.json`)
+- **Smoke test**: pending
+
+---
 ## 2026-01-27 — Batch: Simple text fixes (6 items)
 
 - **Scope**: item, ritual, power, class, implement
