@@ -12,6 +12,16 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-01-27 — Batch: Simple fixes (16 items)
+
+- **Scope**: item, armor, companion, glossary, item sets
+- **Entries**: Ring Mail, Lockburst Chalk, Sigil of Companionship, Unicorn Destrier, Battle-Scarred Champion, Beloved Performer, Imperial Oration, Kord's Mighty Strength, Sanctuary's Poise, Torog's Lamentation, Alchemist's Frost, Potion of Spirit, Sliver of Salvation, Warding Mind, Item Sets (Pieces→Wielders), Glossary (line hat→line that runs)
+- **Source**: fixes-needed.json + fixes-priority.json
+- **Files touched**: `4e_database_files/item/data*.js`, `4e_database_files/item/_index.js`, `4e_database_files/armor/data14.js`, `4e_database_files/companion/data3.js`, `4e_database_files/companion/_index.js`, `4e_database_files/glossary/data14.js`, `4e_database_files/glossary/_index.js`, `fixes-needed.json`, `index.htm`
+- **Validation**: pass (`compendium-validation.json`)
+- **Smoke test**: pending
+
+---
 ## 2026-01-27 — Batch: All remaining Waist items (7 items)
 
 - **Scope**: item
