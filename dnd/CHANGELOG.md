@@ -22,6 +22,17 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: pending
 
 ---
+
+## 2026-01-27 — Batch: Remaining simple fixes (11 items)
+
+- **Scope**: class, theme, monster
+- **Entries**: Rogue (Scoundrel) - Sharpshooter Talent text, Vigilante theme - Level 5/Starting feature swap, Runescribed Dracolich - Blackfire attack, Monk - Unarmed Combatant text, Warlock (Binder) - removed hexblade-only lines, Warlock (Hexblade) - removed binder-only lines, Warlock - Vestige Pact Boons to Free Actions
+- **Source**: fixes-needed.json + fixes-priority.json
+- **Files touched**: `4e_database_files/class/data*.js`, `4e_database_files/class/_index.js`, `4e_database_files/theme/data19.js`, `4e_database_files/monster/data16.js`, `4e_database_files/monster/_index.js`, `fixes-needed.json`, `index.htm`
+- **Validation**: pass (`compendium-validation.json`)
+- **Smoke test**: pending
+
+---
 ## 2026-01-27 — Batch: All remaining Waist items (7 items)
 
 - **Scope**: item
