@@ -12,12 +12,35 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
-## 2026-01-27 — Batch: Simple fixes (16 items)
+## 2026-01-27 — Batch: Lightweight medium fixes (7 items)
 
-- **Scope**: item, armor, companion, glossary, item sets
-- **Entries**: Ring Mail, Lockburst Chalk, Sigil of Companionship, Unicorn Destrier, Battle-Scarred Champion, Beloved Performer, Imperial Oration, Kord's Mighty Strength, Sanctuary's Poise, Torog's Lamentation, Alchemist's Frost, Potion of Spirit, Sliver of Salvation, Warding Mind, Item Sets (Pieces→Wielders), Glossary (line hat→line that runs)
-- **Source**: fixes-needed.json + fixes-priority.json
-- **Files touched**: `4e_database_files/item/data*.js`, `4e_database_files/item/_index.js`, `4e_database_files/armor/data14.js`, `4e_database_files/companion/data3.js`, `4e_database_files/companion/_index.js`, `4e_database_files/glossary/data14.js`, `4e_database_files/glossary/_index.js`, `fixes-needed.json`, `index.htm`
+- **Scope**: weapon, item, implement
+- **Entries**: 
+  - Hestavar Dueling Blade: Removed period before "the", fixed level 24→23 and cost 525k→425k
+  - Tempest Fan: Added Lightning/Teleportation keywords, fixed "close 3 burst" → "close burst 3"
+  - Ring of Fury: Added Special line about Belt of Fiends synergy
+  - Sandals of the Temporal Step: Added Special line about Mark of Passage synergy
+  - Flaming Weapon: Added scaling ongoing damage (10 at 15/20, 15 at 25/30)
+  - Tuning Songblade: Added leveled ongoing damage (10 at 14/19, 15 at 24/29)
+  - Rod of Scouring Justice: Added leveled ongoing damage (10 at 23/28)
+- **Source**: fixes-needed.json + Portable Compendium SQL
+- **Files touched**: `4e_database_files/weapon/data14.js`, `4e_database_files/weapon/data6.js`, `4e_database_files/weapon/_index.js`, `4e_database_files/item/data2.js`, `4e_database_files/item/data3.js`, `4e_database_files/item/data8.js`, `4e_database_files/item/_index.js`, `4e_database_files/implement/data5.js`, `4e_database_files/implement/_index.js`, `fixes-needed.json`, `index.htm`
+- **Validation**: pass (`compendium-validation.json`)
+- **Smoke test**: pending
+
+---
+## 2026-01-27 — Batch: All remaining simple fixes (15+ items)
+
+- **Scope**: item, class, item sets, typo fixes
+- **Entries**: 
+  - Item fixes: Kord's Mighty Strength, Potion of Spirit, Sliver of Salvation, Warding Mind (removed extra text from higher-level versions)
+  - Verified correct: Lockburst Chalk, Sigil of Companionship, Battle-Scarred Champion, Beloved Performer, Imperial Oration, Sanctuary's Poise, Torog's Lamentation, Alchemist's Frost
+  - Item Sets: Changed "Pieces" to "Wielders" in all item set benefit tables (20 data files)
+  - Class: Hybrid Warden (Bonus to Defense: "+1 Fortitude, +1 Will" → "+1 Fortitude or +1 Will")
+  - Typo fixes: Fixed common patterns across 124 files ("damage ." → "damage.", ".." → ".", ",." → ".", "turn,any" → "turn, any", ". </p>" → ".</p>")
+  - Verified: Determining Cover for Melee Attacks (already correct), Wizard (Mage) duplicates (already removed)
+- **Source**: fixes-needed.json + fixes-priority.json + Portable Compendium SQL
+- **Files touched**: `4e_database_files/item/data*.js` (24 files), `4e_database_files/item/_index.js`, `4e_database_files/class/data6.js`, `4e_database_files/class/_index.js`, `4e_database_files/*/data*.js` (124 files for typo fixes), `4e_database_files/*/_index.js` (multiple categories), `fixes-needed.json`, `index.htm`
 - **Validation**: pass (`compendium-validation.json`)
 - **Smoke test**: pending
 
