@@ -347,3 +347,20 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: pending
 
 ---
+## 2026-01-29 — Batch: Hybrid Classes fixes (8 items)
+
+- **Scope**: class, glossary
+- **Entries**: 
+  - Hybrid Ardent (class588): Added missing Mantle of Impulsiveness (Hybrid) power and rider for Ardent Surge
+  - Hybrid Monk (class609): Added missing Desert Wind (Hybrid), Eternal Tide (Hybrid), and Iron Soul (Hybrid) monastic traditions with their Flurry of Blows powers
+  - Hybrid Battlemind (class590): Added missing Wild Focus and Persistent Harrier (Hybrid) powers
+  - Hybrid Psion (class610): Added missing Shaper Focus (Hybrid) option with Minor Creation power
+  - Hybrid Vampire (class893): Fixed healing surges text and bonus to defense (changed from "+1 Fortitude, +1 Will" to "+1 Fortitude or +1 Will")
+  - Glossary: Added "Creating a Hybrid Character" (glossary362)
+  - Glossary: Added "Psionic Augmentation and Hybrid Characters" (glossary364)
+- **Source**: fixes-needed.json + Portable Compendium SQL
+- **Files touched**: `4e_database_files/class/data8.js`, `4e_database_files/class/data9.js`, `4e_database_files/class/data10.js`, `4e_database_files/class/data13.js`, `4e_database_files/class/_index.js`, `4e_database_files/glossary/data2.js`, `4e_database_files/glossary/data4.js`, `4e_database_files/glossary/_listing.js`, `4e_database_files/glossary/_index.js`, `4e_database_files/index.js`, `fixes-needed.json`, `index.htm`
+- **Validation**: pass (`compendium-validation.json`)
+- **Smoke test**: pending
+
+---
