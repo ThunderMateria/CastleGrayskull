@@ -12,6 +12,16 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-01-29 — Batch: Glossary additions/updates from Portable Compendium (4 entries)
+
+- **Scope**: glossary
+- **Entries**: (1) Battle Standards: Added new glossary entry (glossary677) from PC—battle standard mechanics (AV:179). (2) Languages (glossary623): Added Supernal/Immortal rules paragraph from PC (RC:69). (3) Paragon Multiclassing: Added new glossary entry (glossary678) from PC (PHB:209). (4) Staff (implement) (glossary668): Added wielding sentence from PC (one hand as implement, two hands as weapon).
+- **Source**: fixes-needed.json + Portable Compendium SQL (glossary extracts)
+- **Files touched**: 4e_database_files/glossary/_listing.js, data3.js, data8.js, data17.js, data18.js, _index.js, 4e_database_files/index.js, catalog.js, fixes-needed.json, index.htm
+- **Validation**: pass
+- **Smoke test**: pending
+
+---
 ## 2026-01-29 — Batch: Class features and paragon path fixes (7 entries)
 
 - **Scope**: class, paragonpath

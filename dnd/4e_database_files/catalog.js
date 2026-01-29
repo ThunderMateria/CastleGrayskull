@@ -9,7 +9,7 @@ od.reader.jsonp_catalog(20130616, {
     "weapon": 631,
     "paragonpath": 577,
     "armor": 493,
-    "glossary": 456,
+    "glossary": 458,
     "ritual": 360,
     "companion": 193,
     "deity": 134,
