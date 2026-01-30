@@ -12,6 +12,16 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-01-29 — Batch: Glossary full-content entries from PC extract (6 entries)
+
+- **Scope**: glossary
+- **Entries**: Filled in full HTML for glossary entries that had listing rows but were missing or truncated in data: (1) Paragon Multiclassing and Psionic Augmentation (glossary681), (2) Tattoos (glossary682), (3) Warforged Components (glossary683), (4) Wands (glossary684). Also marked as corrected: Background Rules (glossary680 already present), Healing Surge usage (glossary679 already present). Content from `glossary_extract_full.py` (Portable Compendium ddiGlossary.sql).
+- **Source**: fixes-needed.json + Portable Compendium SQL (glossary_full_extract.json)
+- **Files touched**: 4e_database_files/glossary/data1.js, data2.js, data3.js, data4.js, _index.js, 4e_database_files/index.js, fixes-needed.json, index.htm
+- **Validation**: pass
+- **Smoke test**: pending
+
+---
 ## 2026-01-29 — Batch: Glossary additions/updates from Portable Compendium (4 entries)
 
 - **Scope**: glossary
