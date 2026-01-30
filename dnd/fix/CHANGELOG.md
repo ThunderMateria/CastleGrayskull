@@ -12,6 +12,16 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-01-29 — Batch: Implacable Enmity, Dervish's Challenge, Brand the Heretic, Memories of Wind and Rain, Rescue Familiar (5 fixes)
+
+- **Scope**: power
+- **Entries**: (1) Implacable Enmity (power14242)—Utility 20 → Attack 20; listing Daily Utility → Daily Attack (NCS:56). (2) Dervish's Challenge (power10496)—Range Personal → Melee weapon (Fighter Daily 5, CErr). (3) Brand the Heretic (power11294)—Range "Melee or Ranged 5" → "Melee 1 or Ranged 5" (Invoker Daily 9, D383:34). (4) Memories of Wind and Rain (power12874)—typo "WInd" → "Wind" (Shaman encounter 7). (5) Rescue Familiar (power9293)—Target line → Trigger (Familiar Bloodsmith Util 12, DR377:37).
+- **Source**: fix/fixes-needed.json
+- **Files touched**: 4e_database_files/power/data2.js, data16.js, data14.js, data13.js, _listing.js, _index.js; fix/fixes-needed.json, fix/index.htm
+- **Validation**: pass (fix/compendium-validation.json)
+- **Smoke test**: pending
+
+---
 ## 2026-01-29 — Batch: Agile Recovery, Shadow Sight, Favor of Tymora (3 simple fixes)
 
 - **Scope**: power, feat

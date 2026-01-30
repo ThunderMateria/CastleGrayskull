@@ -282,7 +282,7 @@
     },
     {
       "text": "Implacable Enmity (Devout Warpriest Attack 20) (NCS:56): Incorrectly marked as \"utility\" rather than \"attack\"",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Slashing Claws (Druid Daily 15) (PHB2:91): Beast form should be KW. Range should be Melee touch, not \"Melee beast form.\"",
@@ -290,11 +290,11 @@
     },
     {
       "text": "Rescue Familiar (Familiar Bloodsmith Util 12) [DR377:37]: Target should be Trigger.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Dervish's Challenge (Fighter Daily 5) [CErr]: Range is Melee weapon, not Personal.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Knack for Success (Half-Elf Racial) (HotFK:252): Should be listed as Racial Utility.",
@@ -310,7 +310,7 @@
     },
     {
       "text": "Brand the Heretic (Invoker Daily 9) (D383:34) : Range is \"Melee 1 or Ranged 5\".",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Elemental Transformation (Legendary Hexblade Attack 20) (HotEC:135) : Missing.",
@@ -342,7 +342,7 @@
     },
     {
       "text": "Memories of Wind and Rain (Shaman encounter 7): \"i\" in \"Wind\" capitalized.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Life and Death Struggle (Shaman Utility 22) (DR372:23): Utility listed as attack.",

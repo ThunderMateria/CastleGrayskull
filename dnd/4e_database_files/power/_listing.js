@@ -23644,7 +23644,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "Implacable Enmity",
       "Devout Warpriest",
       "20",
-      "Daily Utility",
+      "Daily Attack",
       "Standard",
       "Teleportation, Force, Weapon, Divine",
       "NCS"
@@ -65741,7 +65741,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
     ],
     [
       "power12874",
-      "Memories of WInd and Rain",
+      "Memories of Wind and Rain",
       "Shaman",
       "7",
       "Enc. Attack",
