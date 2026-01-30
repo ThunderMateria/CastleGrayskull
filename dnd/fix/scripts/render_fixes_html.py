@@ -249,13 +249,13 @@ def main() -> None:
     )
     parser.add_argument(
         "--input",
-        default="fixes-needed.json",
-        help="Path to fixes-needed.json (default: fixes-needed.json)",
+        default="fix/fixes-needed.json",
+        help="Path to fixes-needed.json (default: fix/fixes-needed.json)",
     )
     parser.add_argument(
         "--output",
-        default="fixes-needed-view.html",
-        help="Output HTML file path (default: fixes-needed-view.html)",
+        default="fix/index.htm",
+        help="Output HTML file path (default: fix/index.htm)",
     )
     args = parser.parse_args()
 

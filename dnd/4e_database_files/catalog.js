@@ -2,7 +2,7 @@ od.reader.jsonp_catalog(20130616, {
     "power": 9410,
     "monster": 5326,
     "feat": 3272,
-    "item": 1963,
+    "item": 1964,
     "background": 808,
     "trap": 776,
     "implement": 647,

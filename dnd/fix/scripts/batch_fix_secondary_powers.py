@@ -16,7 +16,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+# Project root (parent of fix/)
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def extract_power_name(fix_text: str) -> str:
@@ -30,8 +31,8 @@ def extract_power_name(fix_text: str) -> str:
 
 
 def main() -> None:
-    # Load fixes-needed.json
-    fixes_path = ROOT / "fixes-needed.json"
+    # Load fixes-needed.json from fix/
+    fixes_path = ROOT / "fix" / "fixes-needed.json"
     with fixes_path.open("r", encoding="utf-8") as f:
         data = json.load(f)
     
@@ -59,14 +60,14 @@ def main() -> None:
         result = subprocess.run(
             [
                 "python3",
-                str(ROOT / "scripts" / "fix_secondary_power.py"),
+                str(ROOT / "fix" / "scripts" / "fix_secondary_power.py"),
                 "--name",
                 power_name,
                 "--apply",
             ],
             capture_output=True,
             text=True,
-            cwd=ROOT,
+            cwd=str(ROOT),
         )
         
         if result.returncode != 0:
@@ -83,13 +84,13 @@ def main() -> None:
             mark_result = subprocess.run(
                 [
                     "python3",
-                    str(ROOT / "scripts" / "mark_fix_corrected.py"),
+                    str(ROOT / "fix" / "scripts" / "mark_fix_corrected.py"),
                     "--text",
                     fix_text,
                 ],
                 capture_output=True,
                 text=True,
-                cwd=ROOT,
+                cwd=str(ROOT),
             )
             
             if mark_result.returncode != 0:
@@ -114,13 +115,13 @@ def main() -> None:
     validate_result = subprocess.run(
         [
             "python3",
-            str(ROOT / "scripts" / "validate_compendium.py"),
+            str(ROOT / "fix" / "scripts" / "validate_compendium.py"),
             "--output",
-            str(ROOT / "compendium-validation.json"),
+            str(ROOT / "fix" / "compendium-validation.json"),
         ],
         capture_output=True,
         text=True,
-        cwd=ROOT,
+        cwd=str(ROOT),
     )
     
     if validate_result.returncode == 0:
@@ -133,15 +134,15 @@ def main() -> None:
     html_result = subprocess.run(
         [
             "python3",
-            str(ROOT / "scripts" / "render_fixes_html.py"),
+            str(ROOT / "fix" / "scripts" / "render_fixes_html.py"),
             "--input",
-            "fixes-needed.json",
+            "fix/fixes-needed.json",
             "--output",
-            "index.htm",
+            "fix/index.htm",
         ],
         capture_output=True,
         text=True,
-        cwd=ROOT,
+        cwd=str(ROOT),
     )
     
     if html_result.returncode == 0:

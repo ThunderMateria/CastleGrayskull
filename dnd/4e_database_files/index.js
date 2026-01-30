@@ -75,6 +75,7 @@ od.reader.jsonp_name_index(20160808, {
     "grasping chains of the justiciar": "power2874",
     "hobgoblin legionnaire of avernus": "monster3827",
     "immurement of the jealous keeper": "item1607",
+    "immurement of the strident statuary": "item1610",
     "immurement of the vengeful river": "item1609",
     "liria valthorin's blinding blade": "item1745",
     "magnificent tsor's brutal finish": "item1787",

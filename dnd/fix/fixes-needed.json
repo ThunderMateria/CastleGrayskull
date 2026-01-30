@@ -6,7 +6,7 @@
     },
     {
       "text": "Ardent Surge (Ardent Feature) (PsP:10): Mantle of Impulsiveness rider missing. The target also gains a +2 bonus to speed until the end of your next turn.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Energizing Strike (Ardent At-Will 1) (PHB3:25): Only the Augment 1 and Augment 2 attacks have the Healing keyword. The unaugmented attack does not.",
@@ -18,18 +18,18 @@
     },
     {
       "text": "Use Magic Item (Artificer Utility 2): This power does nothing as the rule it is based upon (daily item power restrictions) no longer exists.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Sigil of Admixture (Artificer Utility 16) (DR403): This power was retracted and does not appear in published versions of its original article.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Siphon Fate (Artificer Encounter 17) (DR403:26): Both the Hit and the Effect line should say \"all defenses\" instead of \"saving throws\"",
       "status": "corrected"
     },
     {
-      "text": "Assassin\u2019s Strike (Hybrid) (Hybrid Assassin (Executioner) Feature) (DR400): Should have the Personal keyword, not Special .",
+      "text": "Assassin’s Strike (Hybrid) (Hybrid Assassin (Executioner) Feature) (DR400): Should have the Personal keyword, not Special .",
       "status": "corrected"
     },
     {
@@ -37,7 +37,7 @@
       "status": "corrected"
     },
     {
-      "text": "Dance of Flame (Avenger Daily 5): \u201cdamage\u201d misspelled",
+      "text": "Dance of Flame (Avenger Daily 5): “damage” misspelled",
       "status": "corrected"
     },
     {
@@ -46,30 +46,30 @@
     },
     {
       "text": "Song of Storms (Bard E13) (PHB2:73): Effect line is in the Hit line.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Beast Stalker\u2019s Target (Beast Stalker Daily 20) (PHB1:114): Lvl 20, not 16",
-      "status": "needs_fix"
+      "text": "Beast Stalker’s Target (Beast Stalker Daily 20) (PHB1:114): Lvl 20, not 16",
+      "status": "corrected"
     },
     {
       "text": "Item Resurgence (Cannith Utility 12): This power does nothing as the rule it is based upon (daily item power restrictions) no longer exists",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Favor of Tymora (Channel Divinity) (D365:24): Should be an Immediate Reaction, not a Minor Action",
       "status": "corrected"
     },
     {
-      "text": "Seed of Chaos (Chaosmade Utility) (DR408:10): Option 2 should read \u201chit with an attack,\u201d not \u201cbit with an attack.\u201d",
+      "text": "Seed of Chaos (Chaosmade Utility) (DR408:10): Option 2 should read “hit with an attack,” not “bit with an attack.”",
       "status": "corrected"
     },
     {
-      "text": "Cruel Inspiration (Cleric) (DR409:3): This power should be labeled \u201cCleric Utility 1.\u201d",
+      "text": "Cruel Inspiration (Cleric) (DR409:3): This power should be labeled “Cleric Utility 1.”",
       "status": "corrected"
     },
     {
-      "text": "Storm Surge (Cleric) (HotFL:110): This power should be labeled \u201cCleric Utility 1.\u201d",
+      "text": "Storm Surge (Cleric) (HotFL:110): This power should be labeled “Cleric Utility 1.”",
       "status": "corrected"
     },
     {
@@ -77,7 +77,7 @@
       "status": "corrected"
     },
     {
-      "text": "Sun\u2019s Glow (Cleric \u201cDomain Utility Power\u201d 1) (HotFL 117): Utility listed as attack.",
+      "text": "Sun’s Glow (Cleric “Domain Utility Power” 1) (HotFL 117): Utility listed as attack.",
       "status": "corrected"
     },
     {
@@ -97,7 +97,7 @@
       "status": "corrected"
     },
     {
-      "text": "Combat Challenge (Fighter) (PHB1:76): Should be \u201cMelee 1,\u201d not \u201cMelee\u201d and trigger should be listed as a Trigger, not as part of effect.",
+      "text": "Combat Challenge (Fighter) (PHB1:76): Should be “Melee 1,” not “Melee” and trigger should be listed as a Trigger, not as part of effect.",
       "status": "corrected"
     },
     {
@@ -114,14 +114,14 @@
     },
     {
       "text": "In Death, Life (In Death, Life feat utility) (DR381:74): Should have Channel Divinity line.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Blessing of the Storm Father (Invoker Utility 16) (DR383:78): Listed as Attack.",
       "status": "corrected"
     },
     {
-      "text": "Weaponsoul Dance (Kensei Daily 20): \u201cStrength\u201d misspelled in tertiary attack.",
+      "text": "Weaponsoul Dance (Kensei Daily 20): “Strength” misspelled in tertiary attack.",
       "status": "corrected"
     },
     {
@@ -129,11 +129,11 @@
       "status": "corrected"
     },
     {
-      "text": "Grasp of the Obsidian Tomb (Obsidian Stalker Daily 20) (DR379:32): In the power\u2019s hit line \u201c[4W]\u201d should be \u201c4[W]\u201d",
+      "text": "Grasp of the Obsidian Tomb (Obsidian Stalker Daily 20) (DR379:32): In the power’s hit line “[4W]” should be “4[W]”",
       "status": "corrected"
     },
     {
-      "text": "Ardent Vow and Virtue\u2019s Touch (Paladin Features): Should be at-will to match Lay on Hands.",
+      "text": "Ardent Vow and Virtue’s Touch (Paladin Features): Should be at-will to match Lay on Hands.",
       "status": "corrected"
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "text": "Psychic Anomaly (Psion At-Will 3): Primary power should have the Augmentable keyword, not secondary (attack) power.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Warning Shot (Ranger At-Will 1): Secondary attack is an immediate reaction, not immediate action",
@@ -162,14 +162,14 @@
     },
     {
       "text": "Brilliant Corona (Sainted General 11): Should specify that the melee basic attack can only be made against one enemy.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Life and Death Struggle (Shaman Utility 22) (D372:23): Utility listed as attack.",
       "status": "corrected"
     },
     {
-      "text": "Reverberating Shield (Shield Adept Daily 20) (MP:33): Remove Stance keyword. \u201c Effect: \u201d line should say \u201c Target: \u201d",
+      "text": "Reverberating Shield (Shield Adept Daily 20) (MP:33): Remove Stance keyword. “ Effect: ” line should say “ Target: ”",
       "status": "corrected"
     },
     {
@@ -178,23 +178,23 @@
     },
     {
       "text": "Wyrm Form (Sorcerer Daily 29) (AP:41): Breath Weapon & Reactive Attacks missing. Breath Weapon should have Implement keyword (but no other parts).",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Booming Blade (Swordmage At-Will 1) (FRPG:27): Should be Melee weapon, not Melee 1.",
       "status": "corrected"
     },
     {
-      "text": "Arcane Tanglestep (Wandering Swordmage 12) (FRPG:68): In the effect line, \u201caegis of warding\u201d should be \u201caegis of shielding\u201d.",
+      "text": "Arcane Tanglestep (Wandering Swordmage 12) (FRPG:68): In the effect line, “aegis of warding” should be “aegis of shielding”.",
       "status": "corrected"
     },
     {
-      "text": "Winter\u2019s Retributive Escape (Warlock Attack): Should not have level.",
-      "status": "needs_fix"
+      "text": "Winter’s Retributive Escape (Warlock Attack): Should not have level.",
+      "status": "corrected"
     },
     {
       "text": "Moonlit escape (Warlock Attack): Should not have level.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Accursed Affinity (Warlock Pact Boon 1) (HotEC:97): Should be a free action, not an immediate reaction.",
@@ -202,7 +202,7 @@
     },
     {
       "text": "Darkspiral Aura (Warlock Pact Boon 1) (FRPG:35): Should be a Free action with a secondary interrupt and should have an Effect line, not a Hit line since there is no attack roll.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Feast of Souls (Warlock Daily 9) (AP:79): Should have the Cold keyword.",
@@ -213,11 +213,11 @@
       "status": "corrected"
     },
     {
-      "text": "Interrupting Strike (Warlord Encounter 3) (DR:384:51): Says \u201cHit: Hit:\u201d at the beginning of Hit line.",
+      "text": "Interrupting Strike (Warlord Encounter 3) (DR:384:51): Says “Hit: Hit:” at the beginning of Hit line.",
       "status": "corrected"
     },
     {
-      "text": "Scent of Victory (Warlord Daily 5) (MP:106): Power should be an \u201cEffect\u201d instead of \u201cSpecial\u201d",
+      "text": "Scent of Victory (Warlord Daily 5) (MP:106): Power should be an “Effect” instead of “Special”",
       "status": "corrected"
     },
     {
@@ -225,15 +225,15 @@
       "status": "corrected"
     },
     {
-      "text": "Summon Succubus (Wizard Daily 9) (DM 385:55) : Intrinsic Nature should be \u201c Intrinsic Nature: If you haven\u2019t given the succubus any commands by the end of your turn, it shifts 1 square and attacks you or your nearest ally within range.\u201d",
+      "text": "Summon Succubus (Wizard Daily 9) (DM 385:55) : Intrinsic Nature should be “ Intrinsic Nature: If you haven’t given the succubus any commands by the end of your turn, it shifts 1 square and attacks you or your nearest ally within range.”",
       "status": "corrected"
     },
     {
-      "text": "Orbmaster\u2019s Prismatic Sphere (Wizard Daily 25) (AP:114) : Missing the target line: \u201cEach creature in burst.\u201d",
+      "text": "Orbmaster’s Prismatic Sphere (Wizard Daily 25) (AP:114) : Missing the target line: “Each creature in burst.”",
       "status": "corrected"
     },
     {
-      "text": "Leaf Wall (Druid Utility 6) (HotFK:110): Listed as ranger utility; it\u2019s a druid utility introduced with Sentinel.",
+      "text": "Leaf Wall (Druid Utility 6) (HotFK:110): Listed as ranger utility; it’s a druid utility introduced with Sentinel.",
       "status": "corrected"
     }
   ],
@@ -587,7 +587,7 @@
       "status": "corrected"
     },
     {
-      "text": "Duelist\u2019s Dance (Warlock Utility 10) (HotFK:214)",
+      "text": "Duelist’s Dance (Warlock Utility 10) (HotFK:214)",
       "status": "corrected"
     },
     {
@@ -824,18 +824,18 @@
   "Feats": [
     {
       "text": "Awaken God Fragment (DR382:57): Missing god fragments entirely as well as an explanation of the god fragment mechanics. [I will not be putting them in. Look them up]",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Barreling Charge (RC240): This feat does nothing, as the rule it is based upon (chargers must end adjacent to targets) no longer exists.",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Blade Initiate [Multiclass Swordmage] (FRPG:139): The feat utility misspells \u201clight,\u201d fails to say that the duration is to the end of the encounter, and otherwise changes feat phrasing to make it less clear. Additional changes need to be made to match the phrasing of the original feat and to the Swordmage Warding class feature.",
       "status": "corrected"
     },
     {
-      "text": "Full corrected version: \u201cEffect: Until the end of the encounter, while you are conscious and wielding either a light blade or a heavy blade, you gain a +1 bonus to AC, or a +3 bonus to AC if you are wielding a blade in one hand and have your other hand free.\u201d",
+      "text": "Barreling Charge (RC240): This feat does nothing, as the rule it is based upon (chargers must end adjacent to targets) no longer exists.",
+      "status": "corrected"
+    },
+    {
+      "text": "Blade Initiate [Multiclass Swordmage] (FRPG:139): The feat utility misspells “light,” fails to say that the duration is to the end of the encounter, and otherwise changes feat phrasing to make it less clear. Additional changes need to be made to match the phrasing of the original feat and to the Swordmage Warding class feature.",
+      "status": "corrected"
+    },
+    {
+      "text": "Full corrected version: “Effect: Until the end of the encounter, while you are conscious and wielding either a light blade or a heavy blade, you gain a +1 bonus to AC, or a +3 bonus to AC if you are wielding a blade in one hand and have your other hand free.”",
       "status": "corrected"
     },
     {
@@ -843,11 +843,11 @@
       "status": "corrected"
     },
     {
-      "text": "Flow Like Sand (DR396:25): Should say \u201cup to your speed\u201d instead of \u201cup to two squares\u201d.",
+      "text": "Flow Like Sand (DR396:25): Should say “up to your speed” instead of “up to two squares”.",
       "status": "corrected"
     },
     {
-      "text": "Immortal Prowess (DR374:50): Feat prerequisite incorrectly says \u201c11th level\u201d when it should be \u201c21st level\u201d.",
+      "text": "Immortal Prowess (DR374:50): Feat prerequisite incorrectly says “11th level” when it should be “21st level”.",
       "status": "corrected"
     },
     {
@@ -855,7 +855,7 @@
       "status": "corrected"
     },
     {
-      "text": "Sniper\u2019s Aim (DR377:45): Listed as \u201cHeroic Tier\u201d feat with 11th level prerequisite.",
+      "text": "Sniper’s Aim (DR377:45): Listed as “Heroic Tier” feat with 11th level prerequisite.",
       "status": "corrected"
     },
     {
@@ -863,19 +863,19 @@
       "status": "corrected"
     },
     {
-      "text": "Gusting Rebuke (DR383:62): \u201cWhen enemy adjacent...\u201d missing \u201can\u201d before enemy.",
+      "text": "Gusting Rebuke (DR383:62): “When enemy adjacent...” missing “an” before enemy.",
       "status": "corrected"
     },
     {
-      "text": "Prophetic Preparation (DR380:87): Listed as \u201cHeroic Tier\u201d feat with 11th level prerequisite.",
+      "text": "Prophetic Preparation (DR380:87): Listed as “Heroic Tier” feat with 11th level prerequisite.",
       "status": "corrected"
     },
     {
-      "text": "Protected Isolation (PHB2:191): The \u201c Special: \u201d on the bottom line should be removed.",
+      "text": "Protected Isolation (PHB2:191): The “ Special: ” on the bottom line should be removed.",
       "status": "corrected"
     },
     {
-      "text": "Replace \u201ccall of virtue\u201d with \u201cvirtue\u2019s touch\u201d in the following feats:",
+      "text": "Replace “call of virtue” with “virtue’s touch” in the following feats:",
       "status": "corrected"
     },
     {
@@ -1043,21 +1043,21 @@
   "Haunted": [],
   "Items": [
     {
-      "text": "Ammunition: All AV2 magical ammo, as well as some from EPG and DR373 is mislabeled as a specific type of ammunition. Gauntlet Axe (DSCS:121): The line \u201cThe weapon can also serve as a light shield.\u201d should be removed, per the errata (UCE:17).",
-      "status": "mixed"
+      "text": "Ammunition: All AV2 magical ammo, as well as some from EPG and DR373 is mislabeled as a specific type of ammunition. Gauntlet Axe (DSCS:121): The line “The weapon can also serve as a light shield.” should be removed, per the errata (UCE:17).",
+      "status": "corrected"
     },
     {
-      "text": "Shields: In the mundane item entries for Light Shield, Heavy Shield, and Barbed Shield replace \u201cAC Bonus\u201d with \u201cShield Bonus.\u201d",
+      "text": "Shields: In the mundane item entries for Light Shield, Heavy Shield, and Barbed Shield replace “AC Bonus” with “Shield Bonus.”",
       "status": "corrected"
     }
   ],
   "Weapons": [
     {
-      "text": "Aggressive Weapon: Higher-level: Remove \u201cto damage\u201d",
+      "text": "Aggressive Weapon: Higher-level: Remove “to damage”",
       "status": "corrected"
     },
     {
-      "text": "Axe of Sundering: Higher-level: Remove \u201cto damage\u201d",
+      "text": "Axe of Sundering: Higher-level: Remove “to damage”",
       "status": "corrected"
     },
     {
@@ -1065,7 +1065,7 @@
       "status": "corrected"
     },
     {
-      "text": "Deep Wounding Weapon (DR386:29): In the power\u2019s Effect line, there should be a space between \u201cattackwas\u201d.",
+      "text": "Deep Wounding Weapon (DR386:29): In the power’s Effect line, there should be a space between “attackwas”.",
       "status": "corrected"
     },
     {
@@ -1073,16 +1073,16 @@
       "status": "corrected"
     },
     {
-      "text": "Goring Weapon (DM365: 56): Does not actually exist, the original item is called \u201cImpaling Weapon\u201d, and the power is a Free Action, not an Immediate Reaction",
-      "status": "needs_fix"
+      "text": "Goring Weapon (DM365: 56): Does not actually exist, the original item is called “Impaling Weapon”, and the power is a Free Action, not an Immediate Reaction",
+      "status": "corrected"
     },
     {
       "text": "Frost Weapon (PHB:234): The Daily power should deal extra cold damage.",
       "status": "corrected"
     },
     {
-      "text": "Hestavar Dueling Blade (DR371:27): should not have a period before \u201cthe.\u201d Lvl 24 version should be level 23 and 425,000 gp, not 24 and 525,000 gp",
-      "status": "needs_fix"
+      "text": "Hestavar Dueling Blade (DR371:27): should not have a period before “the.” Lvl 24 version should be level 23 and 425,000 gp, not 24 and 525,000 gp",
+      "status": "corrected"
     },
     {
       "text": "Lucky Halfling's Weapon (Dr381:83): Higher level version should be lvl 24 or 29.",
@@ -1093,16 +1093,16 @@
       "status": "corrected"
     },
     {
-      "text": "Shoulderbow (DR364:35): Missing (embedded component) trait for weapon and \u201c Requirement: You must be a warforged and have the living construct racial trait to use this item.\u201d",
-      "status": "needs_fix"
+      "text": "Shoulderbow (DR364:35): Missing (embedded component) trait for weapon and “ Requirement: You must be a warforged and have the living construct racial trait to use this item.”",
+      "status": "corrected"
     },
     {
       "text": "Flaming Weapon (PHB:234): Missing scaling ongoing damage on daily power.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Tuning Songblade (Dr390: Missing leveled ongoing damage on daily power.",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Implements": [
@@ -1116,19 +1116,19 @@
     },
     {
       "text": "Symbol of Hope (PHB:237): Reference to errata not listed (Compiled Updates p110)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Symbol of Revivification (AV:90): Missing enhancement, level, and cost in table.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Symbol of Vengeance (AV:91): higher level versions scale the higher damage value to 4d8 and 6d8",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Symbol of Fire and Fury (AV2:30): Missing level scaling of the dice increase while bloodied.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Embers of Black Flame (D401:10): Item power should not have the Utility keyword.",
@@ -1136,33 +1136,33 @@
     },
     {
       "text": "Rod of Scouring Justice (PHB2:207): Daily power missing leveled ongoing",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Armor": [
     {
-      "text": "Armor of Dwarven Vigor (AV2:94): Power missing \u201c Special: If you are a dwarf, you can use this power as a free action on your turn.\u201d",
+      "text": "Armor of Dwarven Vigor (AV2:94): Power missing “ Special: If you are a dwarf, you can use this power as a free action on your turn.”",
       "status": "corrected"
     },
     {
-      "text": "Ironclad Armor (PHB3:199): Augment is incorrect, should say \u201cThe damage equals 1d10 per plus\u201d Predator\u2019s Hide: Higher-level: Change \u201cdefense\u201d to \u201cdefenses\u201d",
-      "status": "mixed"
+      "text": "Ironclad Armor (PHB3:199): Augment is incorrect, should say “The damage equals 1d10 per plus” Predator’s Hide: Higher-level: Change “defense” to “defenses”",
+      "status": "corrected"
     },
     {
-      "text": "Resolute Armor (DR380:70): Special property incorrectly listed as Trigger for power. Power should read \u201cTrigger: An enemy attempts to push, pull, or slide you.\u201d",
+      "text": "Resolute Armor (DR380:70): Special property incorrectly listed as Trigger for power. Power should read “Trigger: An enemy attempts to push, pull, or slide you.”",
       "status": "corrected"
     },
     {
       "text": "Ring Mail: Should be listed as light armor.",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Shockweave Armor: Higher-level: Remove \u201c, and .\u201d (Also in Item Set)",
       "status": "corrected"
     },
     {
-      "text": "Surge Armor: \u201call defenses,\u201d not \u201call defense\u201d",
-      "status": "needs_fix"
+      "text": "Shockweave Armor: Higher-level: Remove “, and .” (Also in Item Set)",
+      "status": "corrected"
+    },
+    {
+      "text": "Surge Armor: “all defenses,” not “all defense”",
+      "status": "corrected"
     }
   ],
   "Necks": [
@@ -1171,11 +1171,11 @@
       "status": "corrected"
     },
     {
-      "text": "Periapt of Wisdom (PHB1:251): Higher-level: Remove \u201cto Wisdom.\u201d",
+      "text": "Periapt of Wisdom (PHB1:251): Higher-level: Remove “to Wisdom.”",
       "status": "corrected"
     },
     {
-      "text": "Stormwalker\u2019s Cloak (PHB1:251): Higher-level versions also resist 15 thunder",
+      "text": "Stormwalker’s Cloak (PHB1:251): Higher-level versions also resist 15 thunder",
       "status": "corrected"
     }
   ],
@@ -1185,57 +1185,57 @@
       "status": "corrected"
     },
     {
-      "text": "Eagle Eye Goggles (AV:140): The words \u201cto ranged\u201d should be excluded from the Level 12 and 22 versions.",
+      "text": "Eagle Eye Goggles (AV:140): The words “to ranged” should be excluded from the Level 12 and 22 versions.",
       "status": "corrected"
     },
     {
-      "text": "Headband of Intellect (AV:142): Higher level versions should say \u201cto knowledge or monster knowledge checks for property and should not say \u201cto the\u201d for the power.",
+      "text": "Headband of Intellect (AV:142): Higher level versions should say “to knowledge or monster knowledge checks for property and should not say “to the” for the power.",
       "status": "corrected"
     },
     {
-      "text": "Helm of Heroes (PHB:249): Higher level versions should say +5/+10 power bonus to damage rolls. The level 30 version should not say \u201cto saving.\u201d",
+      "text": "Helm of Heroes (PHB:249): Higher level versions should say +5/+10 power bonus to damage rolls. The level 30 version should not say “to saving.”",
       "status": "corrected"
     },
     {
-      "text": "Helm of Opportunity (AV:142): Higher level versions should not say \u201cto opportunity.\u201d",
-      "status": "needs_fix"
+      "text": "Helm of Opportunity (AV:142): Higher level versions should not say “to opportunity.”",
+      "status": "corrected"
     },
     {
-      "text": "Laurel Circlet (AV:144): Should say +4/+6 item bonus to diplomacy and Insight checks for the property and should not say \u201cto the\u201d for the Power",
-      "status": "needs_fix"
+      "text": "Laurel Circlet (AV:144): Should say +4/+6 item bonus to diplomacy and Insight checks for the property and should not say “to the” for the Power",
+      "status": "corrected"
     },
     {
-      "text": "Philosopher\u2019s Crown (AV2:62): \u201cto Arcana\u201d should not be in the higher-level versions.",
-      "status": "needs_fix"
+      "text": "Philosopher’s Crown (AV2:62): “to Arcana” should not be in the higher-level versions.",
+      "status": "corrected"
     },
     {
-      "text": "Stag Helm (AV:145): The level 15 version should say \u201c+4 item bonus, move action\u201d and the level 25 version should say \u201c+6 item bonus, standard action\u201d",
-      "status": "needs_fix"
+      "text": "Stag Helm (AV:145): The level 15 version should say “+4 item bonus, move action” and the level 25 version should say “+6 item bonus, standard action”",
+      "status": "corrected"
     }
   ],
   "Hands": [
     {
-      "text": "Cat Paws (AV:132): \u201cto athletics checks\u201d should not be included in higher-level versions",
-      "status": "needs_fix"
+      "text": "Cat Paws (AV:132): “to athletics checks” should not be included in higher-level versions",
+      "status": "corrected"
     },
     {
       "text": "Caustic Gauntlets (AV:133): Lvl 16 does extra 3 acid damage (4 after milestone). Lvl 26 does extra 5 acid damage (6 after milestone)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Eremann, Speaker of the Dead (DR367:29): Missing the word \u201cdealt\u201d in the lvl 26 version",
+      "text": "Eremann, Speaker of the Dead (DR367:29): Missing the word “dealt” in the lvl 26 version",
       "status": "corrected"
     },
     {
       "text": "Flaying Gloves (AV:133): Higher level versions should indicate ongoing (save ends).",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Gauntlets of Blood (AV2:58): \u201cto damage\u201d should not be included in higher level versions",
-      "status": "needs_fix"
+      "text": "Gauntlets of Blood (AV2:58): “to damage” should not be included in higher level versions",
+      "status": "corrected"
     },
     {
-      "text": "Gauntlets of the Blood War (MotP:156): \u201congoing 15 damage (save ends) \u201d",
+      "text": "Gauntlets of the Blood War (MotP:156): “ongoing 15 damage (save ends) ”",
       "status": "corrected"
     },
     {
@@ -1244,145 +1244,145 @@
     },
     {
       "text": "Gloves of the Healer (AV:135): The Level 22 version allows the target to regain an extra 2d6 hit points.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Gloves of Venom (DR367:40): missing the word \u201cdealt\u201d in higher-level versions.",
+      "text": "Gloves of Venom (DR367:40): missing the word “dealt” in higher-level versions.",
       "status": "corrected"
     },
     {
       "text": "Gorilla Gloves (DR378:55): Missing semicolon between squares and damage in higher-level",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Holy Gauntlets (AV:135): Missing text from higher-level versions. Level 18: extra 3 radiant damage (4 after milestone). Level 28: extra 5 radiant damage (6 after milestone).",
       "status": "corrected"
     },
     {
-      "text": "Rampaging Slayer\u2019s Gloves (DR380:32): \u201cto damage\u201d should not be in higher-level versions.",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Reaper\u2019s Array (AV2:122/Compiled Updates:11): Gauntlets of Brutality should have Common rarity, not uncommon.",
+      "text": "Rampaging Slayer’s Gloves (DR380:32): “to damage” should not be in higher-level versions.",
       "status": "corrected"
     },
     {
-      "text": "Shadowfell Gloves (PHB:247): Missing the word \u201cdealt\u201d in higher-level versions.",
+      "text": "Reaper’s Array (AV2:122/Compiled Updates:11): Gauntlets of Brutality should have Common rarity, not uncommon.",
       "status": "corrected"
     },
     {
-      "text": "Stern Handler\u2019s Wraps (DR380:69): delete words \u201cto nature checks\u201d from higher-level versions",
+      "text": "Shadowfell Gloves (PHB:247): Missing the word “dealt” in higher-level versions.",
+      "status": "corrected"
+    },
+    {
+      "text": "Stern Handler’s Wraps (DR380:69): delete words “to nature checks” from higher-level versions",
       "status": "corrected"
     },
     {
       "text": "Storm Gauntlets (AV:136): Missing info. Level 20: extra 3 thunder damage (4 after milestone). Level 30: extra 5 thunder damage (6 after milestone)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Twice-Clawed Gauntlets (DR380:32): Higher-level: Remove \u201cto damage\u201d",
+      "text": "Twice-Clawed Gauntlets (DR380:32): Higher-level: Remove “to damage”",
       "status": "corrected"
     }
   ],
   "Rings": [
     {
-      "text": "Ring of Fury (DR366:49): Missing line \u201c Special: If worn with the belt of fiends , you gain a +2 item bonus to Diplomacy, Insight, Bluff, and Religion checks when dealing with devils.\u201d",
-      "status": "needs_fix"
+      "text": "Ring of Fury (DR366:49): Missing line “ Special: If worn with the belt of fiends , you gain a +2 item bonus to Diplomacy, Insight, Bluff, and Religion checks when dealing with devils.”",
+      "status": "corrected"
     }
   ],
   "Arms": [
     {
-      "text": "Angelsteel Shield: Higher-level: Remove \u201cto the defense\u201d",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Bloodsoaked Bracers: Higher-level: Remove \u201cto melee\u201d",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Bracers of Archery: Higher-level: Remove \u201cto damage\u201d",
+      "text": "Angelsteel Shield: Higher-level: Remove “to the defense”",
       "status": "corrected"
     },
     {
-      "text": "Bracers of Mighty Striking: Higher-level: Remove \u201cto the\u201d",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Bracers of the Perfect Shot: Higher-level: Remove \u201cto the\u201d",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Breach Bracers: Higher-level: Remove \u201cagainst\u201d",
+      "text": "Bloodsoaked Bracers: Higher-level: Remove “to melee”",
       "status": "corrected"
     },
     {
-      "text": "Cold Iron Bracers: Higher-level: Remove \u201cto AC\u201d",
+      "text": "Bracers of Archery: Higher-level: Remove “to damage”",
       "status": "corrected"
     },
     {
-      "text": "Iron Armbands of Power: Higher-level: Remove \u201cto melee\u201d",
+      "text": "Bracers of Mighty Striking: Higher-level: Remove “to the”",
+      "status": "corrected"
+    },
+    {
+      "text": "Bracers of the Perfect Shot: Higher-level: Remove “to the”",
+      "status": "corrected"
+    },
+    {
+      "text": "Breach Bracers: Higher-level: Remove “against”",
+      "status": "corrected"
+    },
+    {
+      "text": "Cold Iron Bracers: Higher-level: Remove “to AC”",
+      "status": "corrected"
+    },
+    {
+      "text": "Iron Armbands of Power: Higher-level: Remove “to melee”",
       "status": "corrected"
     },
     {
       "text": "Trauma Bracers (AV:121): Should not be listed as shield",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Shield of the Barrier Sentinels: Higher-level: Remove \u201cto AC\u201d",
-      "status": "needs_fix"
+      "text": "Shield of the Barrier Sentinels: Higher-level: Remove “to AC”",
+      "status": "corrected"
     },
     {
-      "text": "Shield of the Guardian: Higher-level: Remove \u201cto AC\u201d",
-      "status": "needs_fix"
+      "text": "Shield of the Guardian: Higher-level: Remove “to AC”",
+      "status": "corrected"
     }
   ],
   "Waist": [
     {
-      "text": "Baldrick of Dividing Ranks: Higher-level: Remove \u201cto AC\u201d",
-      "status": "needs_fix"
+      "text": "Baldrick of Dividing Ranks: Higher-level: Remove “to AC”",
+      "status": "corrected"
     },
     {
-      "text": "Belt of Fiends (DR366:49): Missing the line \u201c Special: If worn with the Ring of Fury , you gain a +2 item bonus to Diplomacy, Insight, Bluff, and Religion checks when dealing with devils.\u201d",
-      "status": "needs_fix"
+      "text": "Belt of Fiends (DR366:49): Missing the line “ Special: If worn with the Ring of Fury , you gain a +2 item bonus to Diplomacy, Insight, Bluff, and Religion checks when dealing with devils.”",
+      "status": "corrected"
     },
     {
-      "text": "Belt of Sacrifice: Higher-level: Remove \u201cto his\u201d",
-      "status": "needs_fix"
+      "text": "Belt of Sacrifice: Higher-level: Remove “to his”",
+      "status": "corrected"
     },
     {
-      "text": "Belt of Sonnlinor Righteousness (DR385:76): The Daily power text should read \u201c Trigger : An attack reduces you to 0 hit points or fewer. Effect : The triggering attacker takes damage equal to the damage you took from the triggering attack.\u201d",
-      "status": "needs_fix"
+      "text": "Belt of Sonnlinor Righteousness (DR385:76): The Daily power text should read “ Trigger : An attack reduces you to 0 hit points or fewer. Effect : The triggering attacker takes damage equal to the damage you took from the triggering attack.”",
+      "status": "corrected"
     },
     {
-      "text": "Belt of Vigor: Higher-level: Remove \u201cto your\u201d",
-      "status": "needs_fix"
+      "text": "Belt of Vigor: Higher-level: Remove “to your”",
+      "status": "corrected"
     },
     {
-      "text": "Dynamic Belt: Higher-level: Remove \u201cto Acrobatics checks\u201d",
-      "status": "needs_fix"
+      "text": "Dynamic Belt: Higher-level: Remove “to Acrobatics checks”",
+      "status": "corrected"
     },
     {
-      "text": "Swimtide Harness: Higher-level: Remove \u201cto Athletics checks\u201d",
-      "status": "needs_fix"
+      "text": "Swimtide Harness: Higher-level: Remove “to Athletics checks”",
+      "status": "corrected"
     }
   ],
   "Feet": [
     {
-      "text": "Sandals of the Temporal Step (DR380:74): Missing the line: \u201c Special: If you have the Mark of Passage, when you use the sandals\u2019 daily power, you also gain a +3 power bonus to speed until the end of your turn.\u201d",
-      "status": "needs_fix"
+      "text": "Sandals of the Temporal Step (DR380:74): Missing the line: “ Special: If you have the Mark of Passage, when you use the sandals’ daily power, you also gain a +3 power bonus to speed until the end of your turn.”",
+      "status": "corrected"
     }
   ],
   "Wondrous Items": [
     {
-      "text": "Lockburst Chalk: Higher-level: Remove \u201cto the\u201d",
-      "status": "needs_fix"
+      "text": "Lockburst Chalk: Higher-level: Remove “to the”",
+      "status": "corrected"
     },
     {
-      "text": "Tempest Fan (DR380:72): Daily power should have Lightning, Teleportation keywords. In the item\u2019s power, \u201cclose 3 burst\u201d should be \u201cclose burst 3\u201d instead.",
-      "status": "needs_fix"
+      "text": "Tempest Fan (DR380:72): Daily power should have Lightning, Teleportation keywords. In the item’s power, “close 3 burst” should be “close burst 3” instead.",
+      "status": "corrected"
     },
     {
-      "text": "Solitaire (All) (AV:177-178) (DSCS:129): All solitaires missing the following: \u201c Special: You cannot use more than one solitaire in an encounter.\u201d",
-      "status": "needs_fix"
+      "text": "Solitaire (All) (AV:177-178) (DSCS:129): All solitaires missing the following: “ Special: You cannot use more than one solitaire in an encounter.”",
+      "status": "corrected"
     }
   ],
   "Tattoos": [
@@ -1391,97 +1391,97 @@
       "status": "corrected"
     },
     {
-      "text": "Pierced Heart Tattoo: Higher-level: Remove \u201cto damage\u201d",
+      "text": "Pierced Heart Tattoo: Higher-level: Remove “to damage”",
       "status": "corrected"
     },
     {
       "text": "Tattoo of the Wolverine (AV2:85): The level 17 version gives a +1 bonus to the next attack and a +4 bonus to the next damage roll. The level 27 version gives a +1 bonus to the next attack and a +6 bonus to the next damage roll.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Tattoo of Vengeance: Higher-level: add \u201crolls\u201d after \u201cdamage\u201d",
-      "status": "needs_fix"
+      "text": "Tattoo of Vengeance: Higher-level: add “rolls” after “damage”",
+      "status": "corrected"
     },
     {
       "text": "Twining-Scorpion Tattoo (DR380:33): The level 18 version gives a +1 bonus to the next attack and a +4 bonus to the next damage roll against that enemy. The level 28 version gives a +1 bonus to the next attack and a +6 bonus to the next damage roll against that enemy.",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Companions": [
     {
-      "text": "Familiar\u2019s Baldric: Higher-level: change \u201cdefense\u201d to \u201cdefenses.\u201d Lizard Companion : Opportunity Attack benefit listed twice",
-      "status": "needs_fix"
+      "text": "Familiar’s Baldric: Higher-level: change “defense” to “defenses.” Lizard Companion : Opportunity Attack benefit listed twice",
+      "status": "corrected"
     },
     {
       "text": "Standard, Fey Step: Move, Horn Touch: Minor",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Sigil of Companionship: Higher-level: Remove \u201cto damage\u201d",
-      "status": "needs_fix"
+      "text": "Sigil of Companionship: Higher-level: Remove “to damage”",
+      "status": "corrected"
     },
     {
       "text": "Unicorn Destrier (DR406:17): Kick should be listed as a standard action; Fey Step as a Move Action; Horn Touch as a Minor Action.",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Alternative Rewards": [
     {
-      "text": "Battle-Scarred Champion: Higher-level: Remove \u201cto your\u201d",
-      "status": "needs_fix"
+      "text": "Battle-Scarred Champion: Higher-level: Remove “to your”",
+      "status": "corrected"
     },
     {
-      "text": "Beloved Performer: Higher-level: Remove \u201cto Acrobatics checks\u201d",
-      "status": "needs_fix"
+      "text": "Beloved Performer: Higher-level: Remove “to Acrobatics checks”",
+      "status": "corrected"
     },
     {
-      "text": "Crimson Determination: Higher-level: Add \u201crolls\u201d after damage",
-      "status": "needs_fix"
+      "text": "Crimson Determination: Higher-level: Add “rolls” after damage",
+      "status": "corrected"
     },
     {
-      "text": "Imperial Oration: Higher-level: Remove \u201cto Diplomacy\u201d",
-      "status": "needs_fix"
+      "text": "Imperial Oration: Higher-level: Remove “to Diplomacy”",
+      "status": "corrected"
     },
     {
-      "text": "Kord\u2019s Mighty Strength: Higher-level: Remove \u201cto melee\u201d",
-      "status": "needs_fix"
+      "text": "Kord’s Mighty Strength: Higher-level: Remove “to melee”",
+      "status": "corrected"
     },
     {
-      "text": "Kord\u2019s Relentlessness: Level 15 or 20 versions give +4 item bonus to the damage roll. Level 25 or 30 give a +6 item bonus to the damage roll, NOT the death saves.",
-      "status": "needs_fix"
+      "text": "Kord’s Relentlessness: Level 15 or 20 versions give +4 item bonus to the damage roll. Level 25 or 30 give a +6 item bonus to the damage roll, NOT the death saves.",
+      "status": "corrected"
     },
     {
-      "text": "Sanctuary\u2019s Poise: Higher-level: Remove \u201cto Arcana\u201d",
-      "status": "needs_fix"
+      "text": "Sanctuary’s Poise: Higher-level: Remove “to Arcana”",
+      "status": "corrected"
     },
     {
-      "text": "Torog\u2019s Lamentation of the Shackled: Higher-level: Remove \u201cto saving\u201d",
-      "status": "needs_fix"
+      "text": "Torog’s Lamentation of the Shackled: Higher-level: Remove “to saving”",
+      "status": "corrected"
     }
   ],
   "Consumables and Alchemical Items": [
     {
-      "text": "Alchemist\u2019s Frost: Higher-level: Remove \u201cand .\u201d after \u201cdamage\u201d",
-      "status": "needs_fix"
+      "text": "Alchemist’s Frost: Higher-level: Remove “and .” after “damage”",
+      "status": "corrected"
     },
     {
       "text": "Candle of Tomorrow (DR430:24): Price for lvl 15 consumable should be 1,000 gp.",
       "status": "corrected"
     },
     {
-      "text": "Desert Rose (AV:193): \u201c An arcane or divine,\u201d not \u201c a arcane or divine.\u201d",
-      "status": "needs_fix"
+      "text": "Desert Rose (AV:193): “ An arcane or divine,” not “ a arcane or divine.”",
+      "status": "corrected"
     },
     {
       "text": "Immurement of the Strident Sanctuary (AV2:91): Item missing from compendium.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Potion of Spirit: Higher-level: Remove \u201cto death\u201d",
-      "status": "needs_fix"
+      "text": "Potion of Spirit: Higher-level: Remove “to death”",
+      "status": "corrected"
     },
     {
-      "text": "Potion of Stormshield: \u201cthunder\u201d misspelled. Level 8 grants resist 15 lightning or thunder; level 18 grants resist 25 lightning or thunder; level 28 grants resist 35 lightning or thunder: as written, the lightning resist is always 15.",
+      "text": "Potion of Stormshield: “thunder” misspelled. Level 8 grants resist 15 lightning or thunder; level 18 grants resist 25 lightning or thunder; level 28 grants resist 35 lightning or thunder: as written, the lightning resist is always 15.",
       "status": "corrected"
     },
     {
@@ -1489,16 +1489,16 @@
       "status": "corrected"
     },
     {
-      "text": "Sliver of Salvation: Higher-level: Remove \u201cto the.\u201d",
-      "status": "needs_fix"
+      "text": "Sliver of Salvation: Higher-level: Remove “to the.”",
+      "status": "corrected"
     },
     {
-      "text": "Warding Mind: Higher-level: Remove \u201cto AC\u201d",
-      "status": "needs_fix"
+      "text": "Warding Mind: Higher-level: Remove “to AC”",
+      "status": "corrected"
     },
     {
-      "text": "Wrathful Spirit: Higher-level: Add \u201crolls\u201d after damage.",
-      "status": "needs_fix"
+      "text": "Wrathful Spirit: Higher-level: Add “rolls” after damage.",
+      "status": "corrected"
     }
   ],
   "Item Sets": [
@@ -1508,209 +1508,201 @@
     },
     {
       "text": "Rings of the Akarot (AV2:136): Missing the Voice of the Akarot power.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Time Wizard\u2019s Tools (AV2:128): The Staff of Time item entry in the item set is missing enhancement. Cost is incorrectly placed in the same row as the type of enchantment.",
-      "status": "needs_fix"
+      "text": "Time Wizard’s Tools (AV2:128): The Staff of Time item entry in the item set is missing enhancement. Cost is incorrectly placed in the same row as the type of enchantment.",
+      "status": "corrected"
     },
     {
-      "text": "Benefits should be \u201cWielders\u201d not \u201cPieces\u201d",
-      "status": "needs_fix"
+      "text": "Benefits should be “Wielders” not “Pieces”",
+      "status": "corrected"
     },
     {
       "text": "Armory of the Unvanquished (AV2:130)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Caelynnvala's Boons (AV2:132)",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Fortune Stones (AV2:133)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Heirlooms of Mazgorax (AV2:134)",
-      "status": "needs_fix"
-    },
-    {
-      "text": "Rings of the Akarot (AV2:136)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Implements of Argent (RotG:15)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "The Returning Beast (DR396:40)",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Races, Classes, Paragon Paths, and Features": [
     {
       "text": "Assassin (Executioner) (DR400:18): Missing Master of Shrouds optional class feature",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Battle Cleric\u2019s Lore (Cleric Feature) (DR400:54): Clerics and Hybrid Clerics can choose Battle Cleric\u2019s Lore in place of their Healer\u2019s Lore Class Feature:",
-      "status": "needs_fix"
+      "text": "Battle Cleric’s Lore (Cleric Feature) (DR400:54): Clerics and Hybrid Clerics can choose Battle Cleric’s Lore in place of their Healer’s Lore Class Feature:",
+      "status": "corrected"
     },
     {
-      "text": "\u201c Benefit: You gain a +2 shield bonus to AC, and you have proficiency with scale armor. In addition, whenever you use a cleric healing power to allow a target to spend a healing surge, that target gains a +2 bonus to attack rolls until the end of your next turn.\u201d",
-      "status": "needs_fix"
+      "text": "“ Benefit: You gain a +2 shield bonus to AC, and you have proficiency with scale armor. In addition, whenever you use a cleric healing power to allow a target to spend a healing surge, that target gains a +2 bonus to attack rolls until the end of your next turn.”",
+      "status": "corrected"
     },
     {
       "text": "Channel Divinity: Classes with Channel Divinity each begin with two channel divinity powers (that are not feat-specific CD powers); some classes determine these two powers differently:",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Avenger (PHB2:33): You start with two CD powers: Abjure Undead and Divine Guidance.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Cleric (Templar) (PHB1:61): Clerics gain the CD powers Divine Fortune and Turn Undead , though the former can be replaced with Favor of the Gods and the latter can be replaced with Healer\u2019s Mercy or Punish the Profane",
-      "status": "needs_fix"
+      "text": "Cleric (Templar) (PHB1:61): Clerics gain the CD powers Divine Fortune and Turn Undead , though the former can be replaced with Favor of the Gods and the latter can be replaced with Healer’s Mercy or Punish the Profane",
+      "status": "corrected"
     },
     {
       "text": "Invoker (PHB2:101): You gain two CD powers: Rebuke Undead and a power determined by your Divine Covenant.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Paladin (PHB1:91): You gain two CD powers: Divine Mettle and Divine Strength .",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Cleric (Templar) (PHB1:61): Missing free ritual book + two first-level rituals mastered.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Druid (Sentinel) (HotFK:82): Errors with animal companion entries:",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Wolf Animal Companion (HotFK:91) : Will defense displaced. \u201c(add your level to each defense)\u201d missing.",
-      "status": "needs_fix"
+      "text": "Wolf Animal Companion (HotFK:91) : Will defense displaced. “(add your level to each defense)” missing.",
+      "status": "corrected"
     },
     {
-      "text": "Bear Animal Companion (HotFK:91) : \u201c(add your level to each defense)\u201d missing.",
-      "status": "needs_fix"
+      "text": "Bear Animal Companion (HotFK:91) : “(add your level to each defense)” missing.",
+      "status": "corrected"
     },
     {
-      "text": "Living Zephyr Animal Companion (HotEC:62): \u201c(add your level to each defense)\u201d missing.",
-      "status": "needs_fix"
+      "text": "Living Zephyr Animal Companion (HotEC:62): “(add your level to each defense)” missing.",
+      "status": "corrected"
     },
     {
       "text": "Fighter (Knight) (DR395:30): Missing Feywild Guardian as an optional class feature, as well as lvl 6 and 10 utility powers from Feywild Guardian article.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Essentials classes: Sources for most incorrectly listed as DR402 rather than DR400",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Hybrids\u2019 Bonuses to Defenses (PHB3:139-155): Hybrids choose one defense boost from each of their classes. For instance, the entry for Hybrid Wardens should read:",
-      "status": "needs_fix"
+      "text": "Hybrids’ Bonuses to Defenses (PHB3:139-155): Hybrids choose one defense boost from each of their classes. For instance, the entry for Hybrid Wardens should read:",
+      "status": "corrected"
     },
     {
-      "text": "\u201c Bonus to Defense : +1 Fortitude or +1 Will.\u201d",
-      "status": "needs_fix"
+      "text": "“ Bonus to Defense : +1 Fortitude or +1 Will.”",
+      "status": "corrected"
     },
     {
-      "text": "Hybrids\u2019 Bonus Skills: Several hybrid classes give skill training in an additional skill:",
-      "status": "needs_fix"
+      "text": "Hybrids’ Bonus Skills: Several hybrid classes give skill training in an additional skill:",
+      "status": "corrected"
     },
     {
       "text": "Hybrid Assassin (DR385:32): Choose an extra trained skill from the class list.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Bard (PHB3:141): Choose an extra trained skill from the class list.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Ranger (PHB3:148): Choose an extra trained skill from the class list.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Rogue (PHB3:148): Choose two extra trained skills from the class list.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Ardent: Missing Mantle of Impulsiveness (Hybrid)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Monk: Missing several flurry of blows options (e.g. Desert Wind (Hybrid))",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Battlemind: Missing wild focus power, persistent harrier (hybrid)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Psion: Missing Shaper focus (hybrid)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Vampire (DR400:6): As a hybrid vampire, a character gains a total of two",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "healing surges regardless of the class combined with vampire to create it or the character\u2019s Constitution modifier.",
-      "status": "needs_fix"
+      "text": "healing surges regardless of the class combined with vampire to create it or the character’s Constitution modifier.",
+      "status": "corrected"
     },
     {
-      "text": "Monk (PHB3:62): Description for Unarmed Combatant class feature missing text: \u201cYour monk unarmed strike can't be turned into a magic weapon.\u201d \u201cSee \u2018implements\u2019 below\u201d should be removed.",
-      "status": "needs_fix"
+      "text": "Monk (PHB3:62): Description for Unarmed Combatant class feature missing text: “Your monk unarmed strike can't be turned into a magic weapon.” “See ‘implements’ below” should be removed.",
+      "status": "corrected"
     },
     {
-      "text": "Paladin (DP:82): Missing alternative class features Ardent Vow and Virtue\u2019s Touch which can be taken in place of Lay on Hands.",
-      "status": "needs_fix"
+      "text": "Paladin (DP:82): Missing alternative class features Ardent Vow and Virtue’s Touch which can be taken in place of Lay on Hands.",
+      "status": "corrected"
     },
     {
-      "text": "Rogue (Scoundrel): Sharpshooter Talent should read \u201creplaces Scoundrel Weapon Talent.\u201d",
-      "status": "needs_fix"
+      "text": "Rogue (Scoundrel): Sharpshooter Talent should read “replaces Scoundrel Weapon Talent.”",
+      "status": "corrected"
     },
     {
-      "text": "Hybrid Rogue: Uses \u201cRogue Weapon Talent\u201d instead of \u201cScoundrel\u201d throughout. Cunning Sneak (Hybrid) should say \u201cyour movement\u201d instead of \u201ca move action\u201d. The second sentence of Scoundrel Weapon Talent should instead say \u201cIn addition, you gain a +1 bonus to weapon attack rolls with daggers.\u201d",
+      "text": "Hybrid Rogue: Uses “Rogue Weapon Talent” instead of “Scoundrel” throughout. Cunning Sneak (Hybrid) should say “your movement” instead of “a move action”. The second sentence of Scoundrel Weapon Talent should instead say “In addition, you gain a +1 bonus to weapon attack rolls with daggers.”",
       "status": "corrected"
     },
     {
       "text": "Summoned Steed (Cavalier Feature) (DR393:31): Cavaliers can choose Summoned Steed in place of their Pace of the Virtuous Charger Class Feature:",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "\u201c Benefit: Instead of your Pace of the Virtuous Charger class feature, you gain the call celestial steed power.\u201d",
-      "status": "needs_fix"
+      "text": "“ Benefit: Instead of your Pace of the Virtuous Charger class feature, you gain the call celestial steed power.”",
+      "status": "corrected"
     },
     {
       "text": "Warlock (AP:73): The Vestige Pact Boons should be Free Actions, not Standard.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Warlock (Binder) (HoS:67): In the class entry, below the power entry for Summon Warlock\u2019s Ally , the \u201cSummon Warlock\u2019s Ally (pact name)\u201d lines should be removed. Those are for hexblades only. Same applies for the class feature Greater Summon Warlock\u2019s Ally and the \u201c Greater Summon Warlock\u2019s Ally (pact name)\u201d lines below.",
-      "status": "needs_fix"
+      "text": "Warlock (Binder) (HoS:67): In the class entry, below the power entry for Summon Warlock’s Ally , the “Summon Warlock’s Ally (pact name)” lines should be removed. Those are for hexblades only. Same applies for the class feature Greater Summon Warlock’s Ally and the “ Greater Summon Warlock’s Ally (pact name)” lines below.",
+      "status": "corrected"
     },
     {
-      "text": "Warlock (Hexblade) (HotFK:200): In the class entry, below the power entry for Summon Warlock\u2019s Ally , the \u201cBinder\u2019s Ally (pact name)\u201d lines should be removed. Those are for binders only. Same applies for the class feature Greater Summon Warlock\u2019s Ally and the \u201cGreater Binder\u2019s Ally (pact name)\u201d lines below.",
-      "status": "needs_fix"
+      "text": "Warlock (Hexblade) (HotFK:200): In the class entry, below the power entry for Summon Warlock’s Ally , the “Binder’s Ally (pact name)” lines should be removed. Those are for binders only. Same applies for the class feature Greater Summon Warlock’s Ally and the “Greater Binder’s Ally (pact name)” lines below.",
+      "status": "corrected"
     },
     {
       "text": "Wizard (Mage): Level 4 Apprentice Mage and Level 8 Expert Mage duplicate the benefits of only three of the six Mage schools. [Duplicates were removed.]",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Grim Blackguard (HoS:41): All powers in the paragon path are duplicated after the level 20 daily power entries.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Luckbringer of Tymora (DR365:23): Should have Prerequisite: must worship Tymora. Divine Fortune is a lvl 11 feature. Probability Control is a lvl 16 feature.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Relentless Slayer (DP:24): The information in the sidebar explaining the slayer\u2019s enemy mechanic is missing. [This will not be added to Portable Compendium.]",
-      "status": "needs_fix"
+      "text": "Relentless Slayer (DP:24): The information in the sidebar explaining the slayer’s enemy mechanic is missing. [This will not be added to Portable Compendium.]",
+      "status": "corrected"
     },
     {
       "text": "Thuranni Shadow Killer (EPG:78): Spectral Garrote Attack at-will power duplicated above Spectral Garrote daily power entry.",
@@ -1724,14 +1716,14 @@
   "Backgrounds and Themes": [
     {
       "text": "Escaped Slave (DR410:9): Theme gives Bluff training as well as Hidden Strike .",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Fey Beast Tamer (HotFW:106) : Several pieces of information are missing.",
       "status": "corrected"
     },
     {
-      "text": "Order Adept (DR399:10; Compiled Updates): The level 10 feature grants a +1 Power Bonus to Will, not +2 Power Bonus. Level 5 Feature : The last sentence should be \"If you don\u2019t have a spellbook, you can choose wizard utility powers of a particular level or lower when you gain or retrain utility powers of that level.\"",
+      "text": "Order Adept (DR399:10; Compiled Updates): The level 10 feature grants a +1 Power Bonus to Will, not +2 Power Bonus. Level 5 Feature : The last sentence should be \"If you don’t have a spellbook, you can choose wizard utility powers of a particular level or lower when you gain or retrain utility powers of that level.\"",
       "status": "corrected"
     },
     {
@@ -1739,22 +1731,22 @@
       "status": "corrected"
     },
     {
-      "text": "\u201cWhen you gain a 10th-level utility power, the following powers are among your options: the wizard powers blur and mirror image , the shaman power spirits of the shadowed moon , and the warlock power warlock\u2019s leap . For the purpose of retraining, these powers follow the same rules as optional theme powers.\u201d",
+      "text": "“When you gain a 10th-level utility power, the following powers are among your options: the wizard powers blur and mirror image , the shaman power spirits of the shadowed moon , and the warlock power warlock’s leap . For the purpose of retraining, these powers follow the same rules as optional theme powers.”",
       "status": "corrected"
     },
     {
       "text": "Vigilante (DR426:27): Level 5 Feature listed as starting feature and vice versa.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Wandering Master: Associated languages should say \u201cAbyssal,\u201d not \u201cInfernal.\u201d",
+      "text": "Wandering Master: Associated languages should say “Abyssal,” not “Infernal.”",
       "status": "corrected"
     }
   ],
   "Rituals": [
     {
-      "text": "Thief\u2019s Lament (DP:158): \u201cBurst\u201d in wrong column.",
-      "status": "needs_fix"
+      "text": "Thief’s Lament (DP:158): “Burst” in wrong column.",
+      "status": "corrected"
     }
   ],
   "Glossary": [
@@ -1764,81 +1756,81 @@
     },
     {
       "text": "Background Rules: PHB2 Rules on mechanical background elements missing entirely",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Battle Standard (All) (AV:179-180) (AV2:119) (DR381:90,97): Missing Battle Standard mechanics in glossary.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Determining Cover for Melee Attacks: Should say \u201ca line that runs\u2026\u201d, not \u201ca line hat.\u201d",
-      "status": "needs_fix"
+      "text": "Determining Cover for Melee Attacks: Should say “a line that runs…”, not “a line hat.”",
+      "status": "corrected"
     },
     {
       "text": "Healing Surge (PHB:226): Usage rules for (Healing Surge) powers missing",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Hybrid Character Creation Rules: Missing entirely",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
-      "text": "Implement (RC:113): Outdated rule listed: \u201c implement must be a type wielded by the power's class. \u201d Replace with \u201cyou may use implement keyword powers with any implement with which you are proficient.\u201d",
+      "text": "Implement (RC:113): Outdated rule listed: “ implement must be a type wielded by the power's class. ” Replace with “you may use implement keyword powers with any implement with which you are proficient.”",
       "status": "corrected"
     },
     {
       "text": "Languages (RC:69): Missing rules on Supernal + Immortal characters, learning.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Mount (RC:313) Listed twice with same information.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Multiclassing Feats (PHB:208): Missing from the compendium.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Paragon Multiclassing and Psionic Augmentation (PHB3:194): Missing entirely.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Psionic Augmentation for Hybrid Characters: Missing entirely",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Paragon Multiclassing Rules: Missing entirely.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Soulfangs (DR378:57): Missing soulfang mechanics. [This will not be added to Portable Compendium.]",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Spellscarred (FRPG:41): Missing spellscar mechanics. [This will not be added to Portable Compendium.]",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Staff (implement): Missing info on wielding.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Tattoos: Rules/restrictions for use missing.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Wands (PHB:242): Rules for creation and power use missing.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Warforged Components (EPG:113): Rules for warforged components missing.",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Other": [
     {
-      "text": "Lots of minor issues with spelling and punctuation (\u201c..\u201d, \u201cdamage .\u201d, \u201c,.\u201d, \u201cactino,\u201d etc.). Lots of extra spaces for no reason (\u201c. </p>\u201d for instance). Occasionally missing spaces (\u201cturn,any\u201d)",
-      "status": "needs_fix"
+      "text": "Lots of minor issues with spelling and punctuation (“..”, “damage .”, “,.”, “actino,” etc.). Lots of extra spaces for no reason (“. </p>” for instance). Occasionally missing spaces (“turn,any”)",
+      "status": "corrected"
     },
     {
       "text": "Celestial Charger (MM1:159): Celestial Charge power should be at-will, not encounter.",
@@ -1846,15 +1838,15 @@
     },
     {
       "text": "Deep Goblin Wretch (Seekers of Ashen Crown): Incorrect defenses, attack bonuses.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "R unescribed dracolich, Consort of Tiamat: Blackfire attack should be automatic hit; should only list damage once.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Treasure by Party Level (RC:298): First row should not have table header formatting.",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ]
 }

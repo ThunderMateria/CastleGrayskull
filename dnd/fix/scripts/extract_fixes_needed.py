@@ -158,12 +158,12 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Extract fixes-needed.html into structured JSON.")
     parser.add_argument(
         "--input",
-        default="fixes-needed.html",
+        default="fix/fixes-needed.html",
         help="Path to fixes-needed.html",
     )
     parser.add_argument(
         "--output",
-        default="fixes-needed.json",
+        default="fix/fixes-needed.json",
         help="Output JSON path",
     )
     parser.add_argument(

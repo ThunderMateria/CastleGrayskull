@@ -12,6 +12,36 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-01-29 — Batch: Ammunition labels + Gauntlet Axe (mixed fix)
+
+- **Scope**: weapon
+- **Entries**: Ammunition—relabeled 13 AV2/EPG/DR373 magical ammo from specific type to "Arrow or bolt": Onslaught Arrow (1931), Firestorm Arrow (1292), Freezing Arrow (1357), Lightning Arrow (1735), Arrow of Revelation (551), Dual Arrow (1136), Phasing Arrow (2040); Spider Bolt (2576), Bolt of Clumsiness (732), Bolt of Transit (733), Dispelling Bolt (1097), Space-Shifting Bolt (2570), Forbiddance Bolt (1341). Gauntlet Axe (weapon3718): no change—"light shield" sentence not present.
+- **Source**: fixes-needed.json (mixed), docs/INVESTIGATION-mixed-ammo-gauntlet-axe.md
+- **Files touched**: 4e_database_files/weapon/data0.js, data1.js, data10.js, data11.js, data12.js, data13.js, data15.js, data16.js, data17.js, _index.js, fixes-needed.json
+- **Validation**: pending
+- **Smoke test**: pending
+
+---
+## 2026-01-29 — Batch: Immurement of the Strident Statuary (item1610)
+
+- **Scope**: item
+- **Entries**: Immurement of the Strident Statuary (item1610)—added 10th Immurement consumable, Level 28 Rare, 85,000 gp; close blast 8; platform +1 square height, healing +4d6 in blast, statue opportunity attacks (+35 vs. AC; 2d8+8; moving target ends movement); Special: counts as magic item daily use.
+- **Source**: user-provided text (AV2-style)
+- **Files touched**: 4e_database_files/item/data10.js, _index.js, _listing.js, 4e_database_files/index.js, catalog.js
+- **Validation**: pass
+- **Smoke test**: pending
+
+---
+## 2026-01-29 — Batch: Awaken God Fragment full content (feat2269)
+
+- **Scope**: feat
+- **Entries**: Awaken God Fragment (feat2269)—added all 11 god fragment options (Avandra, Bahamut, Corellon, Erathis, Ioun, Kord, Melora, Moradin, Pelor, Raven Queen, Sehanine) with Constant Benefits, Divine Manifestation, Quirks; fragment name as main red heading, Divine Manifestation as h3 subheading.
+- **Source**: fixes-needed.json (DR382:57), user-provided markdown
+- **Files touched**: 4e_database_files/feat/data9.js, 4e_database_files/feat/_index.js, fixes-needed.json, index.htm
+- **Validation**: pass (no new entries; existing feat2269 updated)
+- **Smoke test**: pending
+
+---
 ## 2026-01-29 — Batch: Glossary full-content entries from PC extract (6 entries)
 
 - **Scope**: glossary

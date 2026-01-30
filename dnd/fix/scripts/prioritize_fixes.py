@@ -112,8 +112,8 @@ def prioritize(input_path: Path) -> Dict[str, object]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Prioritize fixes by heuristic complexity.")
-    parser.add_argument("--input", default="fixes-needed.json", help="Input JSON from extract_fixes_needed.py")
-    parser.add_argument("--output", default="fixes-priority.json", help="Output JSON path")
+    parser.add_argument("--input", default="fix/fixes-needed.json", help="Input JSON from extract_fixes_needed.py")
+    parser.add_argument("--output", default="fix/fixes-priority.json", help="Output JSON path")
     args = parser.parse_args()
 
     result = prioritize(Path(args.input))

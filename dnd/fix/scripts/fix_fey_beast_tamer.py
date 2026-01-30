@@ -4,7 +4,8 @@ import json
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+# Project root (parent of fix/)
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def normalize_html(html: str) -> str:
@@ -64,7 +65,7 @@ def main():
         result = subprocess.run(
             [
                 "python3",
-                str(ROOT / "scripts" / "portable_sql_extract.py"),
+                str(ROOT / "fix" / "scripts" / "portable_sql_extract.py"),
                 "--table", "theme",
                 "--id", "915",
                 "--limit", "1",
@@ -73,7 +74,7 @@ def main():
             ],
             capture_output=True,
             text=True,
-            cwd=ROOT,
+            cwd=str(ROOT),
         )
         
         if result.returncode != 0 or not Path(temp_path).exists():
@@ -103,7 +104,7 @@ def main():
         result = subprocess.run(
             [
                 "python3",
-                str(ROOT / "scripts" / "portable_sql_extract.py"),
+                str(ROOT / "fix" / "scripts" / "portable_sql_extract.py"),
                 "--table", "background",
                 "--id", "804",
                 "--limit", "1",
@@ -112,7 +113,7 @@ def main():
             ],
             capture_output=True,
             text=True,
-            cwd=ROOT,
+            cwd=str(ROOT),
         )
         
         if result.returncode != 0 or not Path(temp_path).exists():

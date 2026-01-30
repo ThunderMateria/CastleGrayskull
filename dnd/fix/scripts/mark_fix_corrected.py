@@ -11,7 +11,7 @@ from pathlib import Path
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Mark fixes-needed.json items as corrected.")
-    parser.add_argument("--input", default="fixes-needed.json", help="Input fixes-needed.json")
+    parser.add_argument("--input", default="fix/fixes-needed.json", help="Input fixes-needed.json")
     parser.add_argument("--text", required=True, help="Exact fix text to mark corrected")
     parser.add_argument("--output", default=None, help="Output path (default: overwrite input)")
     args = parser.parse_args()

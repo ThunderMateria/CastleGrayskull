@@ -16079,5 +16079,16 @@ od.reader.jsonp_data_listing(
             "Dex 15, Int 21, Wis 15, wizard",
             "AP",
         ],
+        ["feat3800", "Fragment of Avandra (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3801", "Fragment of Bahamut (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3802", "Fragment of Corellon (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3803", "Fragment of Erathis (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3804", "Fragment of Ioun (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3805", "Fragment of Kord (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3806", "Fragment of Melora (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3807", "Fragment of Moradin (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3808", "Fragment of Pelor (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3809", "Fragment of the Raven Queen (God Fragment)", "Heroic", "", "Dra400"],
+        ["feat3810", "Fragment of Sehanine (God Fragment)", "Heroic", "", "Dra400"],
     ]
 )

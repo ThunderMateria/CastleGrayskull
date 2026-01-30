@@ -17,7 +17,8 @@ from pathlib import Path
 from typing import Dict, List, Set, Tuple
 
 
-ROOT = Path(__file__).resolve().parents[1]
+# Project root (parent of fix/)
+ROOT = Path(__file__).resolve().parents[2]
 DATA_ROOT = ROOT / "4e_database_files"
 
 

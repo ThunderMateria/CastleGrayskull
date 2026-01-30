@@ -10,7 +10,7 @@ This script:
 5. Provides a diff for review
 
 Usage:
-    python3 scripts/fix_secondary_power.py --name "Thunder Hawk Rage"
+    python3 fix/scripts/fix_secondary_power.py --name "Thunder Hawk Rage"
 """
 from __future__ import annotations
 
@@ -20,7 +20,8 @@ import re
 from pathlib import Path
 from typing import Optional, Tuple
 
-ROOT = Path(__file__).resolve().parents[1]
+# Project root (parent of fix/)
+ROOT = Path(__file__).resolve().parents[2]
 DATA_ROOT = ROOT / "4e_database_files" / "power"
 SQL_DIR = ROOT / "Portable Compendium New" / "sql"
 
@@ -38,7 +39,7 @@ def extract_power_from_sql(power_name: str, power_id: Optional[str] = None) -> O
         if power_id:
             cmd = [
                 "python3",
-                str(ROOT / "scripts" / "portable_sql_extract.py"),
+                str(ROOT / "fix" / "scripts" / "portable_sql_extract.py"),
                 "--table", "power",
                 "--id", power_id,
                 "--limit", "1",
@@ -48,7 +49,7 @@ def extract_power_from_sql(power_name: str, power_id: Optional[str] = None) -> O
         else:
             cmd = [
                 "python3",
-                str(ROOT / "scripts" / "portable_sql_extract.py"),
+                str(ROOT / "fix" / "scripts" / "portable_sql_extract.py"),
                 "--table", "power",
                 "--name", power_name,
                 "--limit", "1",
@@ -60,7 +61,7 @@ def extract_power_from_sql(power_name: str, power_id: Optional[str] = None) -> O
             cmd,
             capture_output=True,
             text=True,
-            cwd=ROOT,
+            cwd=str(ROOT),
         )
         
         # Always try to read the file, even if returncode is non-zero
@@ -460,8 +461,8 @@ def main() -> None:
         
         print("\n   ✓ All changes applied successfully!")
         print("   Next steps:")
-        print("   1. Mark as corrected in fixes-needed.json (use mark_fix_corrected.py)")
-        print("   2. Validate with: python3 scripts/validate_compendium.py")
+        print("   1. Mark as corrected in fix/fixes-needed.json (use fix/scripts/mark_fix_corrected.py)")
+        print("   2. Validate with: python3 fix/scripts/validate_compendium.py")
     else:
         print("\n" + "=" * 60)
         print("DRY RUN - No changes applied")

@@ -276,7 +276,7 @@ If you need to regenerate compressed payloads or rebuild indexes programmaticall
 3) Update `_index.js` to reflect the new text.
 4) Update `index.js` if new/renamed name strings should be searchable.
 5) Update `catalog.js` if count changes.
-6) Mark the fix complete in `fixes-needed.json` (`status: "corrected"`).
+6) Mark the fix complete in `fix/fixes-needed.json` (`status: "corrected"`).
 7) Load `index.html` in a browser and verify:
    - Listing row shows correctly
    - Detail view renders correctly
@@ -523,7 +523,7 @@ modify `4e_database_files` or the Portable Compendium data.
 ### 18.1 Extract fixes-needed.html into JSON
 
 ```
-python3 scripts/extract_fixes_needed.py \
+python3 fix/scripts/extract_fixes_needed.py \
   --input fixes-needed.html \
   --output fixes-needed.json
 ```
@@ -540,7 +540,7 @@ Output includes `status`:
 
 Example (by name):
 ```
-python3 scripts/portable_sql_extract.py \
+python3 fix/scripts/portable_sql_extract.py \
   --table power \
   --name "Twin Strike" \
   --limit 1 \
@@ -550,7 +550,7 @@ python3 scripts/portable_sql_extract.py \
 
 Example (by ID):
 ```
-python3 scripts/portable_sql_extract.py \
+python3 fix/scripts/portable_sql_extract.py \
   --table feat \
   --id 129 \
   --extract-detail \
@@ -580,7 +580,7 @@ This does not change any data; it produces a JSON report for review.
 ### 18.4 Mark a fix as corrected
 
 ```
-python3 scripts/mark_fix_corrected.py \
+python3 fix/scripts/mark_fix_corrected.py \
   --text "Dance of Flame (Avenger Daily 5): “damage” misspelled"
 ```
 
