@@ -1260,7 +1260,7 @@
     },
     {
       "text": "Ammunition: All AV2 magical ammo, as well as some from EPG and DR373 is mislabeled as a specific type of ammunition.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Gauntlet Axe (DSCS:121): The line \"The weapon can also serve as a light shield.\" should be removed, per the errata (CErr:17).",
@@ -2170,11 +2170,11 @@
     },
     {
       "text": "Alchemical Items (Multiple Sources): Many rituals list their corresponding alchemical items as Uncommon rarity rather than Common. These include: acidic fire, alchemist's spark, antivenom, blinding bomb, clarity salts, clear-path mist, clockwork bomb, giggle gas, herbal poultice, inferno oil, kinetic oil, lodret leaf, noxious grenade, panther tears, resonance crystal, spotted toadstool venom, suppression crystal, tension wheel, tethercord, tracking dust, universal solvent, walking death.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Salve of Slipperiness (Alchemical Ritual) (AV:29): Lacks higher level versions.",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Glossary": [
@@ -2283,10 +2283,6 @@
     {
       "text": "Treasure by Party Level (RC:298): First row should not have table header formatting.",
       "status": "corrected"
-    },
-    {
-      "text": "Lots of minor issues with spelling and punctuation (\"..\", \"damage .\", \",.\", \"actino,\" \"21th\", \"Aura burst 1\", etc.). Lots of extra spaces for no reason (\". </p>\" or \" ,\"for instance). Occasionally missing spaces (\"turn,any\")",
-      "status": "needs_fix"
     },
     {
       "text": "Angel of Tiamat (Dun168:67): Defenses incorrect. Should be 35/35/31/30.",

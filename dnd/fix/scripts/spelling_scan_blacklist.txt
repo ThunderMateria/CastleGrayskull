@@ -1,0 +1,12 @@
+# Spelling/punctuation scan blacklist
+# Add one entry per line. No edits to the repo — only suppresses report output.
+#
+# Blacklist an entire pattern (all matches for that pattern are hidden):
+#   pattern:pattern_id
+# Example: pattern:maybe_aura_burst_1
+#
+# Blacklist one specific match (file:line:pattern_id):
+#   path/from/4e_database_files:LINE:pattern_id
+# Example: power/_index.js:2648:maybe_aura_burst_1
+#
+# Copy the "Blacklist this match: ..." line from the scanner output (without the label).

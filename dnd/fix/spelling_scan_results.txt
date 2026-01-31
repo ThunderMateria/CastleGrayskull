@@ -1,0 +1,32 @@
+# Spelling / punctuation scan results
+
+Full compendium scan. Report-only; no edits. Use fix/scripts/scan_spelling_punctuation.py to re-run. Blacklist in fix/scripts/spelling_scan_blacklist.txt.
+
+## Summary (total: 6,940 matches)
+
+| Pattern                  | Count  | Note |
+|--------------------------|--------|------|
+| space_comma_no_space     | 4,817  | Noisy (e.g. " , page(s)" in published lines). Blacklist pattern to avoid overwriting good data. |
+| space_before_period      | 2,049  | Noisy; many may be valid. Consider blacklisting pattern. |
+| double_period            | 62     | Worth reviewing. |
+| comma_period             | 6      | Likely real issues. |
+| typo_actino              | 2      | Real: actino → action (power3405 in power/_index.js and power/data5.js). |
+| ordinal_21th             | 2      | Real: 21th → 21st (feat261 Power Attack, feat/_index.js and feat/data1.js). |
+| typo_leabes              | 1      | Real: leabes → leaves (power3405 in power/data5.js). |
+| maybe_aura_burst_1       | 1      | Check: Aura burst 1 vs Area burst 1? Blacklist if correct. |
+
+## Suggested next steps (when ready)
+
+1. Blacklist noisy patterns in spelling_scan_blacklist.txt:
+   - pattern:space_comma_no_space
+   - pattern:space_before_period
+2. Re-run scanner; fix clear typos (actino, leabes, 21th).
+3. Review double_period and comma_period manually; decide on maybe_aura_burst_1.
+
+## Full report
+
+To regenerate the full match list (with file, line, snippet, blacklist-this-match lines), run:
+
+  python3 fix/scripts/scan_spelling_punctuation.py > fix/spelling_scan_report.txt
+
+Or with noisy patterns blacklisted first, then run the same command for a shorter report.

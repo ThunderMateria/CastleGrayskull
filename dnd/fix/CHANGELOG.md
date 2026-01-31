@@ -12,6 +12,36 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-01-30 — Batch: Alchemical Items (Multiple Sources) — ritual rarity
+
+- **Scope**: ritual (alchemical item rituals)
+- **Entries**: 22 rituals—embedded alchemical item descriptions listed as Uncommon; changed to Common per fix. Rituals: acidic fire (237), alchemist's spark (238), antivenom (138), blinding bomb (141), clarity salts (348), clear-path mist (239), clockwork bomb (240), giggle gas (349), herbal poultice (148), inferno oil (243), kinetic oil (350), lodret leaf (245), noxious grenade (246), panther tears (247), resonance crystal (248), spotted toadstool venom (249), suppression crystal (250), tension wheel (251), tethercord (252), tracking dust (157), universal solvent (158), walking death (351).
+- **Source**: fix/fixes-needed.json (Rituals: "Alchemical Items (Multiple Sources)...")
+- **Files touched**: 4e_database_files/ritual/_index.js, data0.js–data19.js (44 lines); fix/scripts/fix_alchemical_ritual_rarity.py (new); fix/fixes-needed.json, fix/index.htm
+- **Validation**: pass
+- **Smoke test**: pending
+
+---
+## 2026-01-30 — Batch: Ammunition label (Quarrel of Biting typo) — 1 entry
+
+- **Scope**: weapon (ammunition)
+- **Entries**: Quarrel of Biting (weapon3471)—data11.js had typo "Arrow or bolt or bolt"; corrected to "Arrow or bolt". All other AV2/EPG/DR373 magical ammo were already relabeled in a prior batch (13 items).
+- **Source**: fix/fixes-needed.json (Items: "Ammunition: All AV2 magical ammo...")
+- **Files touched**: 4e_database_files/weapon/data11.js; fix/fixes-needed.json, fix/index.htm
+- **Validation**: pass
+- **Smoke test**: pending
+
+---
+## 2026-01-30 — Batch: Salve of Slipperiness (Alchemical Ritual) — 1 entry
+
+- **Scope**: ritual
+- **Entries**: Salve of Slipperiness (Alchemical Ritual) (AV:29)—ritual lacked higher level versions; added Level 13: +16 bonus, Level 18: +19 bonus, Level 23: +21 bonus, Level 28: +24 bonus to ritual151 in ritual/data11.js and ritual/_index.js (matching item scaling).
+- **Source**: fix/fixes-needed.json (AV:29)
+- **Files touched**: 4e_database_files/ritual/data11.js, _index.js; fix/fixes-needed.json, fix/index.htm
+- **Validation**: pass (fix/compendium-validation.json)
+- **Smoke test**: pending
+
+---
 ## 2026-01-30 — Batch: Bludgeoning Counterstrike and Shielding Blade (Stalwart Knight Utility 12) — 2 entries
 
 - **Scope**: power
