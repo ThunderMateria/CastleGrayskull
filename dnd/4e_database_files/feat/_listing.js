@@ -13196,7 +13196,7 @@ od.reader.jsonp_data_listing(
         [
             "feat1356",
             "Immortal Prowess",
-            "Paragon",
+            "Epic",
             "Deva, Immortal Resilience",
             "Dra374",
         ],
