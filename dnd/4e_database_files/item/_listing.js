@@ -1493,8 +1493,7 @@ od.reader.jsonp_data_listing(20130703, "item", ["ID", "Name", "Category", "Type"
     ["item3460", "Babau Gauntlets", "Hands", "", ["10+", 10, 30, 20],
         ["5,000+ gp", 5000, 3125000, 125000], "Uncommon", "Dra408"
     ],
-    ["item1151", "Dwarven Throwers", "Hands", "", ["10+", 10, 30, 20],
-        ["5,000+ gp", 5000, 3125000, 125000], "Uncommon", "AV"
+    ["item1151", "Dwarven Throwers", "Hands", "", "10", "5,000 gp", "Uncommon", "AV"
     ],
     ["item1380", "Gauntlets of Brilliance", "Hands", "", "10", "5,000 gp", "Uncommon", "AV"],
     ["item3332", "Gauntlets of Swimming and Climbing", "Hands", "", "10", "5,000 gp", "Uncommon", "MME"],
