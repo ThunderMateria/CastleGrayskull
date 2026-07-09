@@ -806,5 +806,14 @@ od.reader.jsonp_data_listing(20130703, "background", ["ID", "Name", "Type", "Cam
     ["background256", "Xen'drik", "Geography", "Eberron", "Associated: Nature", "EPG"],
     ["background53", "Young Cutthroat", "Campaign", "Scales of War", "Add Intimidate and Thievery to class skill, and +1 to Intimidate and Thievery.", "Dra366"],
     ["background551", "Zhengyian Blood Mage", "Geography", "Faerûn", "Associated: Arcana, Bluff", "Dun177"],
-    ["background250", "Zilargo", "Geography", "Eberron", "Associated: Bluff, Insight", "EPG"]
+    ["background250", "Zilargo", "Geography", "Eberron", "Associated: Bluff, Insight", "EPG"],
+    ["background283", "Blood of the Darkwalker", "Racial", "Forgotten Realms", "", ""],
+    ["background284", "Fastpaw", "Racial", "Forgotten Realms", "", ""],
+    ["background285", "Greenbeard", "Racial", "Forgotten Realms", "", ""],
+    ["background286", "Knight of Synnoria", "Racial", "Forgotten Realms", "", ""],
+    ["background287", "Lashrael Crusader", "Racial", "Forgotten Realms", "", ""],
+    ["background288", "Northman Reaver", "Racial", "Forgotten Realms", "", ""],
+    ["background289", "Skinwalker", "Racial", "Forgotten Realms", "", ""],
+    ["background290", "Totem-Mystic", "Racial", "Forgotten Realms", "", ""],
+    ["background291", "Wrath of the Ancients", "Racial", "Forgotten Realms", "", ""]
 ])

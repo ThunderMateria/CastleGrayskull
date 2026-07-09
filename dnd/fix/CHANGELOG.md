@@ -12,6 +12,21 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-07-07 — Batch: ID alignment (remaps + new entries)
+
+- **Scope**: glossary, item, power, background
+- **Source**: Audit against 2 prior compendium dumps (mostly in pursuit of making sure ids were in alignment for cbloader)
+- **Id remaps (14)** — align iws ids with compendium dumps:
+  - glossary: 680→366 (Backgrounds), 678→365 (Paragon Multiclassing), 681→370 (Paragon Multiclassing and Psionic Augmentation), 679→170 (Healing Surge), 682→424 (Tattoos), 683→472 (Warforged Components), 677→681 (Battle Standards), 684→680 (Wands). Applied as a collision-free chain (677→681 lands after 681→370 vacates it; 684→680 after 680→366).
+  - item: 1610→3753 (Immurement of the Strident Statuary).
+  - power: 12682→16704 (Shielding Blade), 12683→16703 (Bludgeoning Counterstrike), 5184→16700 (Armor of Wrath), 5185→16701 (Preserver's Rebuke), 16333→16702 (Elemental Transformation).
+  - power: Ardent Alacrity had a power id overlapping with an existing power, corrected it to what it should've been and deleted the nonexistent/broken pointer (Arcane Armor) that was there 
+- **New entries (86)** — IWS lacked: 9 backgrounds (background283–291: Blood of the Darkwalker, Fastpaw, Greenbeard, Knight of Synnoria, Lashrael Crusader, Northman Reaver, Skinwalker, Totem-Mystic, Wrath of the Ancients) + 77 glossary keyword/rules entries.
+- **Files touched**: `glossary/{_listing,_index,dataN}.js`, `item/{_listing,_index,dataN}.js`, `power/{_listing,_index,dataN}.js`, `background/{_listing,_index,dataN}.js`, `index.js`, `catalog.js` (48 files, 436 insertions / 137 deletions).
+- **Validation**: pass (check_validation.py exit 0)
+- **Smoke test**: pending
+
+---
 ## 2026-02-01 — Batch: Sorcerer-King Pact feats (D390) — benefit text (enhance not augment)
 
 - **Scope**: feat (Sorcerer-King Pact, Dragon Magazine 390)

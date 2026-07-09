@@ -34330,7 +34330,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "MP"
     ],
     [
-      "power12682",
+      "power16704",
       "Shielding Blade",
       "Fighter",
       "12",
@@ -34340,7 +34340,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "HotFL"
     ],
     [
-      "power12683",
+      "power16703",
       "Bludgeoning Counterstrike",
       "Fighter",
       "12",
@@ -40280,7 +40280,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "DP"
     ],
     [
-      "power5184",
+      "power16700",
       "Armor of Wrath",
       "Invoker",
       "",
@@ -40290,7 +40290,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "PHB2"
     ],
     [
-      "power5185",
+      "power16701",
       "Preserver's Rebuke",
       "Invoker",
       "",
@@ -43500,7 +43500,7 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "Dra393"
     ],
     [
-      "power16333",
+      "power16702",
       "Elemental Transformation",
       "Legendary Hexblade",
       "20",

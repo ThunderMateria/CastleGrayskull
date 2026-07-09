@@ -1027,7 +1027,7 @@ od.reader.jsonp_data_listing(20130703, "item", ["ID", "Name", "Category", "Type"
     ["item1602", "Immurement of Baleful Gossamer", "Consumable", "", "28", "85,000 gp", "Rare", "AV2"],
     ["item1607", "Immurement of the Jealous Keeper", "Consumable", "", "28", "85,000 gp", "Rare", "Dra383"],
     ["item1608", "Immurement of the Mordant Hideaway", "Consumable", "", "28", "85,000 gp", "Rare", "AV2"],
-    ["item1610", "Immurement of the Strident Statuary", "Consumable", "", "28", "85,000 gp", "Rare", "AV2"],
+    ["item3753", "Immurement of the Strident Statuary", "Consumable", "", "28", "85,000 gp", "Rare", "AV2"],
     ["item3304", "Sands of Restored Opportunity", "Consumable", "", "29", "105,000 gp", "Uncommon", "MME"],
     ["item588", "Bahamut's Golden Canary", "Consumable", "", "30", "", "Uncommon", "Dun175"],
     ["item3290", "Potion of Heal", "Consumable", "", "30", "125,000 gp", "Uncommon", "MME"],
