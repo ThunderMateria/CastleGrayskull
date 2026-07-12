@@ -1763,5 +1763,6 @@ od.reader.jsonp_data_listing(20130703, "implement", ["ID", "Name", "Type", "Leve
     ["implement113", "Blue Orb of Dragonkind", "Orb", "Epic", "", "Artifact", "Draco: Chromatic"],
     ["implement140", "Crystal of Ebon Flame", "Any", "Epic", "", "Artifact", "TPB"],
     ["implement145", "The Deluvian Hourglass", "Any", "Epic", "", "Artifact", "Dun159"],
-    ["implement127", "Tome of Shadow", "Orb", "Epic", "", "Artifact", "Open Grave"]
+    ["implement127", "Tome of Shadow", "Orb", "Epic", "", "Artifact", "Open Grave"],
+    ["implement3739", "Ice Scepter", "Rod, staff or wand", "6", "1,800 gp", "Rare", "MV"]
 ])

@@ -1456,7 +1456,7 @@
     },
     {
       "text": "Ice Scepter (Cairn of the Winter King:8): Item is missing from the compendium.",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Armor": [
@@ -1550,7 +1550,7 @@
     },
     {
       "text": "Crown of Winter (Cairn of the Winter King:29): Item is missing from the compendium.",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Hands": [

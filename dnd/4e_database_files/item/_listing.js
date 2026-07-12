@@ -3071,5 +3071,6 @@ od.reader.jsonp_data_listing(20130703, "item", ["ID", "Name", "Category", "Type"
     ["item122", "Mirror of Secrets", "Wondrous", "", "Epic", "", "Artifact", "Open Grave"],
     ["item3331", "Sun's Sliver", "Wondrous", "", "Epic", "", "Artifact", "Dun162, DunAnnual"],
     ["item112", "Wayfinder Badge", "Wondrous", "", "Epic", "", "Artifact", "Dra375"],
-    ["item2463", "Shard of Evil", "Wondrous", "", "33", "", "Rare", "E3"]
+    ["item2463", "Shard of Evil", "Wondrous", "", "33", "", "Rare", "E3"],
+    ["item3754", "Crown of Winter", "Head", "", "8", "3,400 gp", "Rare", "MV"]
 ])

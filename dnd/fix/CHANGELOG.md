@@ -12,6 +12,16 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-07-12 — Batch: Cairn of the Winter King items (2 new entries)
+
+- **Scope**: implement, item
+- **Entries**: Ice Scepter (implement3739, Level 6 Rare, Cairn of the Winter King p.8), Crown of Winter (item3754, Level 8 Rare, Cairn of the Winter King p.29) — both were "missing from the compendium" in fixes-needed.json.
+- **Source**: heroic4e.com compendium (manually entered from the adventure); stat text cross-contributed. These items never appeared in the online compendium so no official ids exist — implement3739/item3754 are next-sequential; maintainers should feel free to renumber.
+- **Files touched**: `implement/data19.js`, `implement/_index.js`, `implement/_listing.js`, `item/data14.js`, `item/_index.js`, `item/_listing.js`, `catalog.js` (implement 647→648, item 1964→1965), `index.js`, `fix/fixes-needed.json`
+- **Validation**: pending
+- **Smoke test**: pending
+
+---
 ## 2026-07-07 — Batch: ID alignment (remaps + new entries)
 
 - **Scope**: glossary, item, power, background
