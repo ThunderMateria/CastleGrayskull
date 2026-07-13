@@ -12,6 +12,18 @@ Use one entry per batch. Keep it short and factual.
 - **Smoke test**: listing/detail/search/lookup (pass/fail)
 
 ---
+## 2026-07-12 — Batch: Missing book data (4 new entries + 2 fixes)
+
+- **Scope**: monster, glossary
+- **New entries**: Tiamat (monster115941, Level 35 Solo Brute, Draconomicon: Chromatic Dragons p.245); Rot Slinger Decayer (monster115942, Level 20 Artillery, E1 Adventure Book Two p.13); Fledgling Black Dragon (monster115943, Level 2 Solo Lurker, 2010 Starter Set DM Book p.47 — note the compendium Fledgling White Dragon is the Monster Vault p.64 variant, which differs from the Starter Set tuning; this entry is faithful to the Starter Set printing the errata doc cites); Dragonshard Augments (glossary682, EPG p.111 rules text).
+- **Fixes**: Blackstar Idol (monster2665) — added the missing Blackstar Pulse (Healing) aura 3 per E1 Book Two p.63. Kalarel (monster822) — repaired mangled type line to "Medium natural humanoid (human)"; otherwise verified to match H1 p.78 as printed (the book itself carries a vestigial "see also shadow form below" reference to a mechanic that appears nowhere in the adventure — checked pp.78-80).
+- **Observed but NOT changed** (for maintainer adjudication): Blackstar Idol has Blackstar Nova at +26 vs. Will and Languages "-", where the p.63 "Blackstar Idol of Timesus" printing reads +24 vs. Will and Languages Primordial; the compendium pages cited (19, 48) may reflect a different instance. Glossary catalog count (536) vs listing rows (545) were already offset by 9 before this batch; both were incremented by 1 consistently.
+- **Source**: verbatim transcriptions from page scans, read visually (screenshots retained by contributor). Recharge dice transcribed as glyphs (⚄⚅ etc.) matching existing entry conventions.
+- **Files touched**: monster/{data1,data2,data3,data5,_index,_listing}.js, glossary/{data2,_index,_listing}.js, catalog.js (monster 5326→5329, glossary 535→536), index.js, fix/fixes-needed.json (6 items → corrected)
+- **Validation**: all touched jsonp files parse; monster listing rows == catalog count (5329); name lookups resolve (tiamat now [deity141, deity43, monster115941])
+- **Smoke test**: pending
+
+---
 ## 2026-07-12 — Batch: Cairn of the Winter King items (2 new entries)
 
 - **Scope**: implement, item

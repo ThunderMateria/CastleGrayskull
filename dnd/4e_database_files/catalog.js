@@ -1,6 +1,6 @@
 od.reader.jsonp_catalog(20130616, {
     "power": 9415,
-    "monster": 5326,
+    "monster": 5329,
     "feat": 3261,
     "item": 1965,
     "background": 817,
@@ -9,7 +9,7 @@ od.reader.jsonp_catalog(20130616, {
     "weapon": 631,
     "paragonpath": 577,
     "armor": 493,
-    "glossary": 535,
+    "glossary": 536,
     "ritual": 360,
     "companion": 193,
     "deity": 134,

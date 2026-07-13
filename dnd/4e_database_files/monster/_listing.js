@@ -5324,5 +5324,8 @@ od.reader.jsonp_data_listing(20130703, "monster", ["ID", "Name", "Level", "Comba
     ["monster2057", "Mual-Tar", "35", "Brute", "Solo", "Gargantuan", "Beast, Elemental, Primordial", "Dra370"],
     ["monster2039", "Vecna", "35", "Controller, Leader", "Solo", "Medium", "Humanoid, Immortal, Undead", "Open Grave"],
     ["monster4218", "Bahamut", "36", "Soldier", "Solo", "Huge", "Beast, Dragon, Immortal, Magical", "Draco: Metallic"],
-    ["monster4217", "The Old Man with the Canaries", "36", "Soldier, Leader", "Solo", "Medium", "Humanoid, Immortal", "Draco: Metallic, Dun175"]
+    ["monster4217", "The Old Man with the Canaries", "36", "Soldier, Leader", "Solo", "Medium", "Humanoid, Immortal", "Draco: Metallic, Dun175"],
+    ["monster115941", "Tiamat", "35", "Brute", "Solo", "Huge", "Dragon, Immortal, Magical Beast", "Draco: Chromatic"],
+    ["monster115942", "Rot Slinger Decayer", "20", "Artillery", "Standard", "Medium", "Elemental, Humanoid, Undead", "E1"],
+    ["monster115943", "Fledgling Black Dragon", "2", "Lurker", "Solo", "Large", "Dragon, Magical Beast, Natural", "Starter Set"]
 ])

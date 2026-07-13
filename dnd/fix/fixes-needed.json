@@ -2328,7 +2328,7 @@
     },
     {
       "text": "Dragonshard Augments (EPG): Missing dragonshard mechanics",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ],
   "Other": [
@@ -2378,19 +2378,19 @@
     },
     {
       "text": "Tiamat (p.245 of the Draconomicon: Chromatic Dragons book) is entirely absent.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Monsters : Fledgling Black Dragon (p.47 of the Dungeon Master's Book from the Starter Set) is entirely absent",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Rot Slinger Decayer (E1:13): Missing from the compendium (not to be confused with Rot Slinger)",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Blackstar Idol (E1): Missing Blackstar Pulse aura. Entry is also duplicated as \"Blackstar Idol of Timesus,\" which does have the Blackstar Pulse aura — but no such distinction is made in the adventure.",
-      "status": "needs_fix"
+      "status": "corrected"
     },
     {
       "text": "Pit Fiend (MV: 55): Teleport 1 should be teleport 10 instead",
@@ -2402,7 +2402,7 @@
     },
     {
       "text": "Kalarel, Scion of Orcus (H1): entire stat block is some wrong/beta version.",
-      "status": "needs_fix"
+      "status": "corrected"
     }
   ]
 }

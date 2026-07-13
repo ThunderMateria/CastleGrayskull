@@ -542,5 +542,6 @@ od.reader.jsonp_data_listing(20130703, "glossary", ["ID", "Name", "Category", "T
     ["glossary611", "Transmutation", "Powers", "Effect Type", ""],
     ["glossary612", "Varies", "Powers", "Damage Type", ""],
     ["glossary619", "troglodyte", "Monsters", "Race", ""],
-    ["glossary620", "umber hulk", "Monsters", "Race", ""]
+    ["glossary620", "umber hulk", "Monsters", "Race", ""],
+    ["glossary682", "Dragonshard Augments", "Items", "Rules", "EPG"]
 ])
