@@ -1941,6 +1941,10 @@
   ],
   "Races, Classes, Paragon Paths, and Features": [
     {
+      "text": "Mantle Power (Hybrid Ardent, Hybrid Talent option) (PH3:139): The Character Builder data ships this class feature with no rules, so a hybrid ardent who takes Hybrid Talent and selects Mantle Power never receives the power matching their chosen mantle. The mantle powers are granted by the full-class mantle entries behind requires=\"Ardent Mantle|Mantle Power\", which hybrid characters never evaluate. Fix: add conditional grants to ID_FMP_CLASS_FEATURE_2345 itself - ID_FMP_POWER_10272 requires Mantle of Clarity, ID_FMP_POWER_11060 requires Mantle of Elation, ID_FMP_POWER_12931 requires Mantle of Impulsiveness. Audit of all 31 hybrid classes found the ardent is the only class with this broken pattern.",
+      "status": "needs_fix"
+    },
+    {
       "text": "Assassin (Executioner) (DR400:18): Missing Master of Shrouds optional class feature",
       "status": "corrected"
     },
