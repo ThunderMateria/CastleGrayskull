@@ -1,8 +1,8 @@
 {
-  "name": "4e Compendium",
-  "short_name": "4e Comp",
-  "description": "Offline D&D 4e Database",
-  "lang": "en-UK",
+  "name": "Castle Grayskull",
+  "short_name": "Grayskull",
+  "description": "Roll20 4e Macro Generator",
+  "lang": "en-US",
   "dir": "ltr",
   "start_url": "../../index.html",
   "display": "standalone",
