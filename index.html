@@ -261,6 +261,7 @@ od.reader.jsonp_batch_data = function(version, type, data) {
     function parsePower(powerHTML){
         const parser = new DOMParser();
         const doc = parser.parseFromString(powerHTML, "text/html");
+        console.log(doc)
 
         const powerStat = doc.querySelector("p.powerstat");
         const [header, footer] = powerStat.innerHTML.split("<br>");
@@ -300,7 +301,9 @@ od.reader.jsonp_batch_data = function(version, type, data) {
             attack: getField(doc, "Attack"),
             hit: getField(doc, "Hit"),
             effect: getField(doc, "Effect"),
-            specials: specials
+            specials: specials,
+            sustainMinor: getField(doc, "Sustain Minor"),
+            sustainStandard: getField(doc, "Sustain Standard")
         }
         return power
     }
@@ -317,8 +320,6 @@ od.reader.jsonp_batch_data = function(version, type, data) {
     }
 
     function toRoll20Macro(power) {
-        //TO DO 
-        //Fill in modifiers with queries like in lay on hands
         weaponOverride = document.getElementById("equippedWeapon").value > 0
         weaponChoice = weaponOverride ? "weapon-"+document.getElementById("equippedWeapon").value : "power-"+document.getElementById("powerNumber").value;
 
@@ -349,7 +350,7 @@ od.reader.jsonp_batch_data = function(version, type, data) {
             }
 
             var attackString
-            if(power.hit.includes("[W]")){
+            if(power?.hit?.includes("[W]")){
                 attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"+@{"+weaponAttack+"}]] vs **"+defense+"**"
             } else {
                 attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"]] vs **"+defense+"**"
@@ -367,7 +368,7 @@ od.reader.jsonp_batch_data = function(version, type, data) {
 
             //For powers that do damage based on equipped weapon, query chosen weapon
             //Otherwise use power stats
-            if(power.hit.includes("[W]")){
+            if(power?.hit?.includes("[W]")){
                 dicenum = power?.hit?.split("[W]")[0]
                 damageroll = "[[@{"+weaponNumDice+"}*"+dicenum+"]]"+power?.hit?.split(" ")[0].split("[W]")[1]+ "d@{"+weaponDice+"}"
                 damagetype = ""
@@ -437,6 +438,8 @@ od.reader.jsonp_batch_data = function(version, type, data) {
         }   
         addField("special", specials.replace(/\b\d+d\d+\b/g, "[[$&]]")+specialRoll);
         addField("requirement", power?.requirement);
+        addField("sustainminor", power?.sustainMinor)
+        addField("sustainstandard", power?.sustainStandard)
 
         return macro
 
