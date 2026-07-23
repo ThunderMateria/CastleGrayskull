@@ -323,7 +323,7 @@ od.reader.jsonp_batch_data = function(version, type, data) {
                 //Some powers add modifiers to damage
                 if(power.hit.includes("modifier")){
                     const ability = power.hit.match(/(\w+)\s+modifier/)?.[1] ?? "";
-                    damagemod = "+[[ @{"+ability.toLowerCase()+"-mod}]]+@{"+weaponChoice+"-damage}]]"
+                    damagemod = "+[[ @{"+ability.toLowerCase()+"-mod}]]+@{"+weaponChoice+"-damage-misc}]]"
                 } else {
                     damagemod = "+@{"+weaponChoice+"-damage}]]"
                 }
@@ -346,6 +346,8 @@ od.reader.jsonp_batch_data = function(version, type, data) {
             //Add hit effects and crit damage
             var effectString = (((power?.hit?.replace(power?.hit?.split("damage")[0]+"damage", "")).replace(/^[^\w\s]/, "")).trim().replace(/^and\s+/i, "")).trim()
             effectString = effectString.charAt(0).toUpperCase() + effectString.slice(1);
+            effectString = effectString.replace("(melee) or 1[W] + Dexterity modifier damage (ranged). ", "")
+
             var critString = "[["+critdamage + damagemod + damagetype +" damage"
 
             addField("hiteffect", effectString);
