@@ -27,16 +27,27 @@ A copy of the GNU Affero General Public License is built into this program, and 
     html, body {
         margin: 0;
     }
+    .banner {
+        background-color: #5F9769;
+        height: 50px;
+        margin: 0;
+        padding: 10px;
+    }
     .header {
+        margin: 0;
         text-align: left;
         text-justify: middle;
         font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #ffffff;
-        background-color: #5F9769;
-        height: 50px;
+    }   
+    .subtitle {
         margin: 0;
-        padding: 10px;
+        text-align: right;
+        text-justify: middle;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #ffffff;
     }   
     .inputBlock {
         text-align: center;
@@ -92,7 +103,10 @@ A copy of the GNU Affero General Public License is built into this program, and 
 
 </style>
 <body>
-    <h1 class="header">Castle Grayskull</h1>
+    <div class="banner">
+        <p class="header">Castle Grayskull</p>
+        <p class="subtitle">Roll20 Macro Generator</p>
+    </div>
     <div class="inputBlock">
         <input id="powerName" class="inputField" placeholder="Enter Power Name..."></input>
         <div id="secondRow">
@@ -102,7 +116,7 @@ A copy of the GNU Affero General Public License is built into this program, and 
         </div>
     </div>
     <div class="outputBlock">
-        <pre id="output">Roll20 Template</pre>
+        <pre id="output"></pre>
     </div>
 </body>
 
@@ -277,7 +291,6 @@ od.reader.jsonp_batch_data = function(version, type, data) {
             attackmod = attackparts[0].toLowerCase()+"-mod"
             defense = power?.attack?.match(/\bvs\.\s+(\w+)/i)?.[1] ?? "";
             extras = power?.attack?.match(/\+\s*(.*?)\s*vs\./i)?.[1] ?? "";
-            console.log(extras)
 
             var attackString
             if(power.hit.includes("[W]")){
@@ -345,9 +358,27 @@ od.reader.jsonp_batch_data = function(version, type, data) {
         }
 
         addField("miss", power.miss);
-        addField("effect", power.effect); //add auto roll damage in effects like healing spirit, and query modifiers like protective roots
-        addField("special", power.specials.join("<br>"));
-        addField("requirement", power.requirement);
+
+        var effectRoll = ""
+        if(power?.effect?.includes("modifier")){
+            modifier = power?.effect.match(/(\w+)\s+modifier/)?.[1] ?? "";
+            effectRoll = " [[@{"+modifier+"-mod}]]"
+            power.effect = power.effect + effectRoll
+        }   
+        if(power.effect){
+            power.effect = power?.effect?.replace(/\b\d+d\d+\b/g, "[[$&]]");
+        }   
+
+         addField("effect", power.effect); 
+        
+        specials = power?.specials.join("<br>")
+        var specialRoll = ""
+        if(specials?.includes("modifier")){
+            modifier = specials.match(/(\w+)\s+modifier/)?.[1] ?? "";
+            specialRoll = " [[@{"+modifier+"-mod}]]"
+        }   
+        addField("special", specials.replace(/\b\d+d\d+\b/g, "[[$&]]")+specialRoll);
+        addField("requirement", power?.requirement);
 
         return macro
 
