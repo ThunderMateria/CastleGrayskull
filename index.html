@@ -83,7 +83,11 @@ A copy of the GNU Affero General Public License is built into this program, and 
     }
     #powerNumber {
         width: 10%;
-        margin-right: 5%;
+        margin-right: 2.5%;
+    }
+    #equippedWeapon {
+        width: 10%;
+        margin-right: 2.5%;
     }
     .outputBlock {
         background: #FFFFFF;
@@ -100,6 +104,36 @@ A copy of the GNU Affero General Public License is built into this program, and 
         white-space: pre-wrap;
         word-break: break-word;
     }
+    .help-container {
+        position: relative;
+        display: inline-block;
+        cursor: help; 
+        border-bottom: 1px dotted #000;
+    }
+    .help-container .help-text {
+        visibility: hidden;
+        width: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 8px;
+        
+        position: absolute;
+        z-index: 1;
+        bottom: 125%; 
+        left: 50%;
+        margin-left: -100px;
+        
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .help-container:hover .help-text {
+        visibility: visible;
+        opacity: 1;
+    }
 
 </style>
 <body>
@@ -110,8 +144,22 @@ A copy of the GNU Affero General Public License is built into this program, and 
     <div class="inputBlock">
         <input id="powerName" class="inputField" placeholder="Enter Power Name..."></input>
         <div id="secondRow">
-            <label for="powerNumber">Power Number: </label>
+            <label for="powerNumber" class="help-container">Power Number: 
+                <span class="help-text">ID of the power in Roll20</span>
+            </label>
             <input type="number" id="powerNumber" class="inputField" name="powerNumber" min="1" max="100" value="1">
+            <label for="weaponNumber" class="help-container">Weapon Override: 
+                <span class="help-text">Uses a weapon from inventory instead of from the power</span>
+            </label>
+            <select id="equippedWeapon" class="inputField">
+                <option value="0">None</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
             <button id="generatePower" onclick="generatePowerEntry()"">I have the Power!</button>
         </div>
     </div>
@@ -271,8 +319,13 @@ od.reader.jsonp_batch_data = function(version, type, data) {
     function toRoll20Macro(power) {
         //TO DO 
         //Fill in modifiers with queries like in lay on hands
-        
-        weaponChoice = "power-"+document.getElementById("powerNumber").value;
+        weaponOverride = document.getElementById("equippedWeapon").value > 0
+        weaponChoice = weaponOverride ? "weapon-"+document.getElementById("equippedWeapon").value : "power-"+document.getElementById("powerNumber").value;
+
+        weaponAttack = weaponChoice +"-attack-misc"
+        weaponDamage = weaponChoice +"-damage-misc"
+        weaponDice = weaponOverride ? weaponChoice+"-dice" : weaponChoice+"-weapon-dice"
+        weaponNumDice = weaponOverride ? weaponChoice+"-num-dice" : weaponChoice+"-weapon-num-dice" 
 
         let macro = "&{template:dnd4epower}";
         addField(power.usage.toLowerCase().replace("-", "").replace("(special)", "").trim(), "1");
@@ -297,7 +350,7 @@ od.reader.jsonp_batch_data = function(version, type, data) {
 
             var attackString
             if(power.hit.includes("[W]")){
-                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"+@{"+weaponChoice+"-attack-misc}]] vs **"+defense+"**"
+                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"+@{"+weaponAttack+"}]] vs **"+defense+"**"
             } else {
                 attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"]] vs **"+defense+"**"
             }
@@ -316,16 +369,16 @@ od.reader.jsonp_batch_data = function(version, type, data) {
             //Otherwise use power stats
             if(power.hit.includes("[W]")){
                 dicenum = power?.hit?.split("[W]")[0]
-                damageroll = "[[@{"+weaponChoice+"-weapon-num-dice}*"+dicenum+"]]"+power?.hit?.split(" ")[0].split("[W]")[1]+ "d@{"+weaponChoice+"-weapon-dice}"
+                damageroll = "[[@{"+weaponNumDice+"}*"+dicenum+"]]"+power?.hit?.split(" ")[0].split("[W]")[1]+ "d@{"+weaponDice+"}"
                 damagetype = ""
-                critdamage = damageroll.split("d@")[0]+"* @{"+weaponChoice+"-weapon-dice}"
+                critdamage = damageroll.split("d@")[0]+"* @{"+weaponDice+"}"
 
                 //Some powers add modifiers to damage
                 if(power.hit.includes("modifier")){
                     const ability = power.hit.match(/(\w+)\s+modifier/)?.[1] ?? "";
-                    damagemod = "+[[ @{"+ability.toLowerCase()+"-mod}]]+@{"+weaponChoice+"-damage-misc}]]"
+                    damagemod = "+[[ @{"+ability.toLowerCase()+"-mod}]]+@{"+weaponDamage+"}]]"
                 } else {
-                    damagemod = "+@{"+weaponChoice+"-damage}]]"
+                    damagemod = "+@{"+weaponDamage+"}]]"
                 }
             } else {
                 damageroll = power?.hit?.split(" ")[0]
