@@ -261,7 +261,6 @@ od.reader.jsonp_batch_data = function(version, type, data) {
     function parsePower(powerHTML){
         const parser = new DOMParser();
         const doc = parser.parseFromString(powerHTML, "text/html");
-        console.log(doc)
 
         const powerStat = doc.querySelector("p.powerstat");
         const [header, footer] = powerStat.innerHTML.split("<br>");
@@ -285,8 +284,27 @@ od.reader.jsonp_batch_data = function(version, type, data) {
             .map(b => b.textContent)
             .join(", ");
 
+        var primaryTarget = getField(doc, "Primary Target")
         var target = getField(doc, "Target")
         var targets = getField(doc, "Targets")
+        var targetField = primaryTarget || target || targets
+
+        var hits = []
+        if(getField(doc, "Hit")){
+            hits.push(getField(doc, "Hit"))
+        }
+        if(getField(doc, "Hit (Fortitude)")){
+            hits.push("Hit (Fortitude): " + getField(doc, "Hit (Fortitude)"))
+        }
+        if(getField(doc, "Hit (Reflex)")){
+            hits.push("Hit (Reflex): " + getField(doc, "Hit (Reflex)"))
+        }
+        if(getField(doc, "Hit (Will)")){
+            hits.push("Hit (Will): " +getField(doc, "Hit (Will)"))
+        }
+        hits = hits.join("<br>")
+
+        console.log(doc)
 
         const power = {
             name: doc.querySelector("h1").childNodes[0].textContent.trim(),
@@ -297,17 +315,40 @@ od.reader.jsonp_batch_data = function(version, type, data) {
             action: action,
             range: range,
             requirement: getField(doc, "Requirement"),
-            target: target ? target : targets,
+            target: targetField,
             attack: getField(doc, "Attack"),
-            hit: getField(doc, "Hit"),
+            hit: hits.length > 0 ? hits : "",
+            miss: getField(doc, "Miss"),
             effect: getField(doc, "Effect"),
             specials: specials,
             sustainMinor: getField(doc, "Sustain Minor"),
-            sustainStandard: getField(doc, "Sustain Standard")
+            sustainStandard: getField(doc, "Sustain Standard"),
+            sustainMove: getField(doc, "Sustain Move"),
+            secondaryTarget: getField(doc, "Secondary Target"),
+            secondaryAttack: getField(doc, "Secondary Attack"),
+            secondaryHit: getField(doc, "Hit", 1),
+            secondaryEffect: getField(doc, "Effect", 1),
+            tertiaryTarget: getField(doc, "Tertiary Target"),
+            tertiaryAttack: getField(doc, "Tertiary Attack"),
+            tertiaryHit: getField(doc, "Hit", 2),
+            tertiaryEffect: getField(doc, "Effect", 2)
         }
+        console.log(power)
         return power
     }
+    function getField(doc, label, index = 0) {
+        const matches = [...doc.querySelectorAll("p b")]
+            .filter(b => b.textContent.trim() === label);
 
+        const bold = matches[index];
+        if (!bold) return null;
+
+        return bold.parentElement.textContent
+            .replace(label + ":", "")
+            .trim();
+    }
+
+/*
     function getField(doc, label) {
         const bold = [...doc.querySelectorAll("p b")]
             .find(b => b.textContent.trim() === label);
@@ -317,7 +358,7 @@ od.reader.jsonp_batch_data = function(version, type, data) {
         return bold.parentElement.textContent
             .replace(label + ":", "")
             .trim();
-    }
+    }*/
 
     function toRoll20Macro(power) {
         weaponOverride = document.getElementById("equippedWeapon").value > 0
@@ -341,94 +382,47 @@ od.reader.jsonp_batch_data = function(version, type, data) {
 
         var attackString
         if(power.attack){
-            attackparts = power?.attack?.split(" ")
-            attackmod = attackparts[0].toLowerCase()+"-mod"
-            defense = power?.attack?.match(/\bvs\.\s+(\w+)/i)?.[1] ?? "";
-            extras = power?.attack?.match(/\+\s*(.*?)\s*vs\./i)?.[1] ?? "";
-            if(extras.length > 0){
-                extras = "+"+extras
-            }
-
-            var attackString
-            if(power?.hit?.includes("[W]")){
-                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"+@{"+weaponAttack+"}]] vs **"+defense+"**"
-            } else {
-                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"]] vs **"+defense+"**"
-            }
+            attackString = getAttack(power.attack, power?.hit?.includes("[W]"))
             addField("attack", attackString); 
-            if(power?.attack?.includes("two attacks") || power?.attack?.includes("attack twice")){
-                addField("secondaryattack", attackString); 
-            } else if (power?.attack?.includes("three attacks") || power?.attack?.includes("attack a third time")){
-                addField("teertiaryattack", attackString); 
-            }
         }
 
         if(power.hit){
-            var damageroll, damagemod, damagetype, critdamage
-
-            //For powers that do damage based on equipped weapon, query chosen weapon
-            //Otherwise use power stats
-            if(power?.hit?.includes("[W]")){
-                dicenum = power?.hit?.split("[W]")[0]
-                damageroll = "[[@{"+weaponNumDice+"}*"+dicenum+"]]"+power?.hit?.split(" ")[0].split("[W]")[1]+ "d@{"+weaponDice+"}"
-                damagetype = ""
-                critdamage = damageroll.split("d@")[0]+"* @{"+weaponDice+"}"
-
-                //Some powers add modifiers to damage
-                if(power.hit.includes("modifier")){
-                    const ability = power.hit.match(/(\w+)\s+modifier/)?.[1] ?? "";
-                    damagemod = "+[[ @{"+ability.toLowerCase()+"-mod}]]+@{"+weaponDamage+"}]]"
-                } else {
-                    damagemod = "+@{"+weaponDamage+"}]]"
-                }
-            } else {
-                damageroll = power?.hit?.split(" ")[0]
-                damagemod = "+ [[@{" + power?.hit?.split(" ")[2].toLowerCase()+"-mod"+"}]]]] "
-                damagetype = power?.hit?.match(/modifier\s+(.*?)\s+damage/)?.[1] ?? "";
-                critdamage = damageroll?.split("d")[0]*damageroll?.split("d")[1]
-            }
-
-            var damageString = "[["+damageroll + damagemod + damagetype +" damage"
-
+            var damageString = getDamage(power.hit)
             addField("damage", damageString); 
-            if(power?.attack?.includes("two attacks") || power?.attack?.includes("attack twice")){
-                addField("secondarydamage", damageString); 
-            } else if (power?.attack?.includes("three attacks") || power?.attack?.includes("attack a third time")){
-                addField("tertiarydamage", damageString); 
-            }
 
-            //Add hit effects and crit damage
-            var effectString = (((power?.hit?.replace(power?.hit?.split("damage")[0]+"damage", "")).replace(/^[^\w\s]/, "")).trim().replace(/^and\s+/i, "")).trim()
-            effectString = effectString.charAt(0).toUpperCase() + effectString.slice(1);
-            effectString = effectString.replace("(melee) or 1[W] + Dexterity modifier damage (ranged). ", "")
+            var hitEffectString = getHitEffectString(power.hit)
+            addField("hiteffect", hitEffectString);
 
-            var critString = "[["+critdamage + damagemod + damagetype +" damage"
-
-            addField("hiteffect", effectString);
+            var critString = getDamage(power.hit, true)
             addField("critical", critString); 
 
+            //Add Multiattack
             if(power?.attack?.includes("two attacks") || power?.attack?.includes("attack twice")){
+                addField("secondaryattack", attackString); 
+                addField("secondarydamage", damageString); 
                 addField("secondarycritical", critString); 
-                addField("secondaryhiteffect", effectString);
+                addField("secondaryhiteffect", hitEffectString);
             } else if (power?.attack?.includes("three attacks") || power?.attack?.includes("attack a third time")){
+                addField("tertiaryattack", attackString); 
                 addField("tertiarycritical", critString);
-                addField("tertiaryhiteffect", effectString); 
+                addField("tertiaryhiteffect", hitEffectString); 
+                addField("tertiarydamage", damageString); 
             }
         }
 
+
+        addField("secondaryattack", power.secondaryAttack ? getAttack(power.secondaryAttack, power.secondaryHit?.includes("[W]")): ""); 
+        addField("secondarydamage", power.secondaryHit ? getDamage(power.secondaryHit) : ""); 
+        addField("secondarycritical", power.secondaryHit ? getDamage(power.secondaryHit, true) : ""); 
+        addField("secondaryhiteffect", power.secondaryHit ? getHitEffectString(power.secondaryHit) : "");
+
+        addField("tertiaryattack", power.tertiaryAttack ? getAttack(power.tertiaryAttack, power.tertiaryHit?.includes("[W]")): ""); 
+        addField("tertiarydamage", power.tertiaryHit ? getDamage(power.tertiaryHit) : ""); 
+        addField("tertiarycritical", power.tertiaryHit ? getDamage(power.tertiaryHit, true) : ""); 
+        addField("tertiaryhiteffect", power.tertiaryHit ? getHitEffectString(power.tertiaryHit) : "");
+        
         addField("miss", power.miss);
-
-        var effectRoll = ""
-        if(power?.effect?.includes("modifier")){
-            modifier = power?.effect.match(/(\w+)\s+modifier/)?.[1] ?? "";
-            effectRoll = " [[@{"+modifier+"-mod}]]"
-            power.effect = power.effect + effectRoll
-        }   
-        if(power.effect){
-            power.effect = power?.effect?.replace(/\b\d+d\d+\b/g, "[[$&]]");
-        }   
-
-         addField("effect", power.effect); 
+        addField("effect", addModifiersAndDice(power?.effect)); 
         
         specials = power?.specials.join("<br>")
         var specialRoll = ""
@@ -440,13 +434,89 @@ od.reader.jsonp_batch_data = function(version, type, data) {
         addField("requirement", power?.requirement);
         addField("sustainminor", power?.sustainMinor)
         addField("sustainstandard", power?.sustainStandard)
+        addField("sustainmove", power?.sustainMove)
 
         return macro
 
         function addField(name, value) {
-            if (value && value.trim()) {
+            if (value && value?.trim()) {
                 macro += `{{${name}=${value}}}`;
             }
+        }
+
+        function getAttack(input, weaponPower){
+            attackparts = input?.split(" ")
+            if(attackparts == undefined){
+                return
+            }
+            attackmod = attackparts[0]?.toLowerCase()+"-mod"
+            defense = input?.match(/\bvs\.\s+(\w+)/i)?.[1] ?? "";
+            extras = input?.match(/\+\s*(.*?)\s*vs\./i)?.[1] ?? "";
+            if(extras.length > 0){
+                extras = "+"+extras
+            }
+
+            var attackString
+            if(weaponPower){
+                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"+@{"+weaponAttack+"}]] vs **"+defense+"**"
+            } else {
+                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"]] vs **"+defense+"**"
+            }
+            return attackString
+        }
+
+        function getDamage(input, crit = false){
+            if(input?.includes("[W]")){
+                var damageroll, damagemod, damagetype, critdamage
+
+                dicenum = input?.split("[W]")[0]
+                damageroll = "[[@{"+weaponNumDice+"}*"+dicenum+"]]"+input?.split(" ")[0].split("[W]")[1]+ "d@{"+weaponDice+"}"
+                damagetype = ""
+                critdamage = damageroll.split("d@")[0]+"* @{"+weaponDice+"}"
+
+                //Some powers add modifiers to damage
+                if(input?.includes("modifier")){
+                    const ability = input?.match(/(\w+)\s+modifier/)?.[1] ?? "";
+                    damagemod = "+[[ @{"+ability.toLowerCase()+"-mod}]]+@{"+weaponDamage+"}]]"
+                } else {
+                    damagemod = "+@{"+weaponDamage+"}]]"
+                }
+            } else {
+                damageroll = input?.split(" ")[0]
+                damagemod = "+ [[@{" + input?.split(" ")[2].toLowerCase()+"-mod"+"}]]]] "
+                damagetype = input?.match(/modifier\s+(.*?)\s+damage/)?.[1] ?? "";
+                critdamage = damageroll?.split("d")[0]*damageroll?.split("d")[1]
+            }
+
+            var damageString 
+            if(crit == false){
+                damageString = "[["+damageroll + damagemod + damagetype +" damage"
+            } else {
+                damageString = "[["+critdamage + damagemod + damagetype +" damage"
+            }
+            return damageString
+        }
+
+        function getHitEffectString(input) {
+            if(input){
+                var effectString = (((input?.replace(input?.split("damage")[0]+"damage", "")).replace(/^[^\w\s]/, "")).trim().replace(/^and\s+/i, "")).trim()
+                effectString = effectString.charAt(0).toUpperCase() + effectString.slice(1);
+                effectString = effectString.replace("(melee) or 1[W] + Dexterity modifier damage (ranged). ", "")
+                return effectString
+            }
+        }
+
+        function addModifiersAndDice(input) {
+            var effectRoll = ""
+            if(input?.includes("modifier")){
+                modifier = input?.match(/(\w+)\s+modifier/)?.[1] ?? "";
+                effectRoll = " [[@{"+modifier+"-mod}]]"
+                input = input + effectRoll
+            }   
+            if(input){
+                input = input?.replace(/\b\d+d\d+\b/g, "[[$&]]");
+            } 
+            return input
         }
     }
 
