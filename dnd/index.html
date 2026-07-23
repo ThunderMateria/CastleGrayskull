@@ -291,12 +291,15 @@ od.reader.jsonp_batch_data = function(version, type, data) {
             attackmod = attackparts[0].toLowerCase()+"-mod"
             defense = power?.attack?.match(/\bvs\.\s+(\w+)/i)?.[1] ?? "";
             extras = power?.attack?.match(/\+\s*(.*?)\s*vs\./i)?.[1] ?? "";
+            if(extras.length > 0){
+                extras = "+"+extras
+            }
 
             var attackString
             if(power.hit.includes("[W]")){
-                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]+"+extras+"+@{"+weaponChoice+"-attack-misc}]] vs **"+defense+"**"
+                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"+@{"+weaponChoice+"-attack-misc}]] vs **"+defense+"**"
             } else {
-                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]+"+extras+"]] vs **"+defense+"**"
+                attackString = "[[ 1d20 + [[ @{"+attackmod+"}]]"+extras+"]] vs **"+defense+"**"
             }
             addField("attack", attackString); 
             if(power?.attack?.includes("two attacks") || power?.attack?.includes("attack twice")){
