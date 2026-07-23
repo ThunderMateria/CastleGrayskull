@@ -1,4 +1,4 @@
-od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Level", "Type", "Action", "Keywords", "SourceBook"], [
+window.powerIds = [
     [
       "power6965",
       "Reaping Disruption",
@@ -94149,4 +94149,4 @@ od.reader.jsonp_data_listing(20130703, "power", ["ID", "Name", "ClassName", "Lev
       "Martial, Weapon",
       "MP2"
     ]
-  ])
+  ]
